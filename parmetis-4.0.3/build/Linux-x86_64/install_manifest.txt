@@ -1,0 +1,6 @@
+/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/parmetis-install/include/parmetis.h
+/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/parmetis-install/lib/libparmetis.a
+/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/parmetis-install/bin/ptest
+/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/parmetis-install/bin/mtest
+/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/parmetis-install/bin/parmetis
+/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/parmetis-install/bin/pometis

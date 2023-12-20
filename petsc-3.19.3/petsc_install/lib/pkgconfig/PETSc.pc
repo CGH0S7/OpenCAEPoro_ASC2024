@@ -1,0 +1,23 @@
+prefix=/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib
+ccompiler=/usr/bin/mpicc
+cflags_extra=-fPIC -Wall -Wwrite-strings -Wno-unknown-pragmas -Wno-lto-type-mismatch -Wno-stringop-overflow -fstack-protector -fvisibility=hidden -g -O
+cflags_dep=-MMD -MP
+ldflag_rpath=-Wl,-rpath,
+cxxcompiler=/usr/bin/mpicxx
+cxxflags_extra=-Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -Wno-lto-type-mismatch -Wno-psabi -fstack-protector -fvisibility=hidden -g -O  -std=gnu++20 -fPIC
+fcompiler=/usr/bin/mpif90
+fflags_extra=-fPIC -Wall -ffree-line-length-none -ffree-line-length-0 -Wno-lto-type-mismatch -Wno-unused-dummy-argument -g -O
+cudacompiler=nvcc
+cudaflags_extra=-std=c++20 -Xcompiler -fPIC -O3
+cudalib=
+cudainclude=
+
+Name: PETSc
+Description: Library to solve ODEs and algebraic equations
+Version: 3.19.3
+Cflags:  -I${includedir} -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include
+Libs: -L${libdir} -lpetsc
+Libs.private: -L/home/gh0s7/project/OpenCAEPoro_ASC2024/hypre-2.28.0/install/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -lHYPRE -llapack -lblas -lm -lX11 -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -lquadmath

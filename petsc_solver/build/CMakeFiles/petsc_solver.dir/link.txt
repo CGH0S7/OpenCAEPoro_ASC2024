@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpetsc_solver.a CMakeFiles/petsc_solver.dir/src/PETSC_FIM_solver.cpp.o CMakeFiles/petsc_solver.dir/src/PETScBSolverPS.cpp.o CMakeFiles/petsc_solver.dir/src/decoup.cpp.o CMakeFiles/petsc_solver.dir/src/preSolver.cpp.o CMakeFiles/petsc_solver.dir/src/precond.cpp.o
+/usr/bin/ranlib libpetsc_solver.a

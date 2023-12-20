@@ -1,0 +1,2 @@
+/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/lib/libOpenCAEPoroX.a
+/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/testOpenCAEPoro

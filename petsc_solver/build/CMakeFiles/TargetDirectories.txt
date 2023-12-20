@@ -1,0 +1,7 @@
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/petsc_solver.dir
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/edit_cache.dir
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/rebuild_cache.dir
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/list_install_components.dir
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/install.dir
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/install/local.dir
+/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/build/CMakeFiles/install/strip.dir

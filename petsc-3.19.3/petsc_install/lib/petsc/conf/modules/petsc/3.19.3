@@ -1,0 +1,15 @@
+#%Module
+
+proc ModulesHelp { } {
+    puts stderr "This module sets the path and environment variables for petsc-3.19.3"
+    puts stderr "     see https://petsc.org/ for more information      "
+    puts stderr ""
+}
+module-whatis "PETSc - Portable, Extensible Toolkit for Scientific Computation"
+
+set petsc_dir   "/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3"
+set petsc_arch  "petsc_install"
+
+setenv PETSC_ARCH "$petsc_arch"
+setenv PETSC_DIR "$petsc_dir"
+prepend-path PATH "/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/bin:/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/bin"
