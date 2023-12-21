@@ -73,15 +73,15 @@ main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o: main/CMakeFiles/testOpenCAEPoro.
 main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp
 main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o: main/CMakeFiles/testOpenCAEPoro.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o"
-	cd /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/main && /usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o -MF CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o.d -o CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp
+	cd /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/main && /opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o -MF CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o.d -o CMakeFiles/testOpenCAEPoro.dir/Main.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp
 
 main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testOpenCAEPoro.dir/Main.cpp.i"
-	cd /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/main && /usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp > CMakeFiles/testOpenCAEPoro.dir/Main.cpp.i
+	cd /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/main && /opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp > CMakeFiles/testOpenCAEPoro.dir/Main.cpp.i
 
 main/CMakeFiles/testOpenCAEPoro.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testOpenCAEPoro.dir/Main.cpp.s"
-	cd /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/main && /usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp -o CMakeFiles/testOpenCAEPoro.dir/Main.cpp.s
+	cd /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/main && /opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/main/Main.cpp -o CMakeFiles/testOpenCAEPoro.dir/Main.cpp.s
 
 # Object files for target testOpenCAEPoro
 testOpenCAEPoro_OBJECTS = \

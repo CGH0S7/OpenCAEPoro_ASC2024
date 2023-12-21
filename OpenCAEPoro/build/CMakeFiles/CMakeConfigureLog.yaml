@@ -17,7 +17,7 @@ events:
       - "CMakeLists.txt:24 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/mpicc 
+      Compiler: /opt/cuda/bin/nvcc 
       Build flags: 
       Id flags:  
       
@@ -39,7 +39,7 @@ events:
       - "CMakeLists.txt:24 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/mpicxx 
+      Compiler: /opt/cuda/bin/nvcc 
       Build flags: 
       Id flags:  
       
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z"
-      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z"
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,65 +71,57 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z'
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c0cf/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_1c0cf.dir/build.make CMakeFiles/cmTC_1c0cf.dir/build
-        make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z'
-        Building C object CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o
-        /usr/bin/mpicc   -v -o CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
-        Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c0cf.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1c0cf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwrBYho.s
-        GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
-        	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
-        
-        warning: MPFR header version 4.2.0-p12 differs from library version 4.2.1.
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/
-         .
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include
-         /usr/local/include
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed
-         /usr/include
-        End of search list.
-        Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c0cf.dir/'
-         as -v --64 -o CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o /tmp/ccwrBYho.s
-        GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_1c0cf
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c0cf.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -v CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o -o cmTC_1c0cf 
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/gcc
-        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
-        Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 13.2.1 20230801 (GCC) 
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c0cf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c0cf.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc12f9VG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1c0cf /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o -rpath /usr/lib --enable-new-dtags -lmpi -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c0cf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c0cf.'
-        make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ad93c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ad93c.dir/build.make CMakeFiles/cmTC_ad93c.dir/build
+        make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1'
+        Building C object CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o
+        /opt/cuda/bin/nvcc   -v -o CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        #$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=/opt/cuda/bin
+        #$ _THERE_=/opt/cuda/bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_DIR_=targets/x86_64-linux
+        #$ TOP=/opt/cuda/bin/..
+        #$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice
+        #$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:
+        #$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin
+        #$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  
+        #$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"
+        #$ CUDAFE_FLAGS=
+        #$ PTXAS_FLAGS=
+        #$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c -D__NVCC__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/usr/share/cmake/Modules/CMakeCCompilerABI.c" -o "CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o" 
+        Linking C executable cmTC_ad93c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad93c.dir/link.txt --verbose=1
+        /opt/cuda/bin/nvcc  -v CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o -o cmTC_ad93c 
+        #$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=/opt/cuda/bin
+        #$ _THERE_=/opt/cuda/bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_DIR_=targets/x86_64-linux
+        #$ TOP=/opt/cuda/bin/..
+        #$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice
+        #$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:
+        #$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin
+        #$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  
+        #$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"
+        #$ CUDAFE_FLAGS=
+        #$ PTXAS_FLAGS=
+        #$ nvlink -m64 --arch=sm_52 --register-link-binaries="/tmp/tmpxft_00002f72_00000000-3_cmTC_ad93c_dlink.reg.c"    "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o"  -lcudadevrt  -o "/tmp/tmpxft_00002f72_00000000-5_cmTC_ad93c_dlink.sm_52.cubin" --host-ccbin "/opt/cuda/bin/gcc"
+        #$ fatbinary -64 -link "--image3=kind=elf,sm=52,file=/tmp/tmpxft_00002f72_00000000-5_cmTC_ad93c_dlink.sm_52.cubin" --embedded-fatbin="/tmp/tmpxft_00002f72_00000000-4_cmTC_ad93c_dlink.fatbin.c" 
+        #$ rm /tmp/tmpxft_00002f72_00000000-4_cmTC_ad93c_dlink.fatbin
+        #$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"/tmp/tmpxft_00002f72_00000000-4_cmTC_ad93c_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"/tmp/tmpxft_00002f72_00000000-3_cmTC_ad93c_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/opt/cuda/bin/crt/link.stub" -o "/tmp/tmpxft_00002f72_00000000-6_cmTC_ad93c_dlink.o" 
+        #$ "/opt/cuda/bin"/g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "/tmp/tmpxft_00002f72_00000000-6_cmTC_ad93c_dlink.o" "CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o"   "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "cmTC_ad93c" 
+        make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1'
         
       exitCode: 0
   -
@@ -139,31 +131,8 @@ events:
       - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:24 (project)"
     message: |
-      Parsed C implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/]
-          add: [.]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
-          add: [/usr/local/include]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include]
-        skipping relative include dir [.]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include]
+      Parsed C implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
       
       
   -
@@ -175,120 +144,62 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z']
+        ignore line: [Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c0cf/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_1c0cf.dir/build.make CMakeFiles/cmTC_1c0cf.dir/build]
-        ignore line: [make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nzsW1Z']
-        ignore line: [Building C object CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/mpicc   -v -o CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/gcc]
-        ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c0cf.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1c0cf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwrBYho.s]
-        ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
-        ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ad93c/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_ad93c.dir/build.make CMakeFiles/cmTC_ad93c.dir/build]
+        ignore line: [make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1']
+        ignore line: [Building C object CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/cuda/bin/nvcc   -v -o CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [#$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"]
+        ignore line: [#$ _NVVM_BRANCH_=nvvm]
+        ignore line: [#$ _SPACE_= ]
+        ignore line: [#$ _CUDART_=cudart]
+        ignore line: [#$ _HERE_=/opt/cuda/bin]
+        ignore line: [#$ _THERE_=/opt/cuda/bin]
+        ignore line: [#$ _TARGET_SIZE_=]
+        ignore line: [#$ _TARGET_DIR_=]
+        ignore line: [#$ _TARGET_DIR_=targets/x86_64-linux]
+        ignore line: [#$ TOP=/opt/cuda/bin/..]
+        ignore line: [#$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice]
+        ignore line: [#$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:]
+        ignore line: [#$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin]
+        ignore line: [#$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  ]
+        ignore line: [#$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"]
+        ignore line: [#$ CUDAFE_FLAGS=]
+        ignore line: [#$ PTXAS_FLAGS=]
+        ignore line: [#$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c -D__NVCC__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/usr/share/cmake/Modules/CMakeCCompilerABI.c" -o "CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o" ]
+        ignore line: [Linking C executable cmTC_ad93c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad93c.dir/link.txt --verbose=1]
+        ignore line: [/opt/cuda/bin/nvcc  -v CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o -o cmTC_ad93c ]
+        ignore line: [#$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"]
+        ignore line: [#$ _NVVM_BRANCH_=nvvm]
+        ignore line: [#$ _SPACE_= ]
+        ignore line: [#$ _CUDART_=cudart]
+        ignore line: [#$ _HERE_=/opt/cuda/bin]
+        ignore line: [#$ _THERE_=/opt/cuda/bin]
+        ignore line: [#$ _TARGET_SIZE_=]
+        ignore line: [#$ _TARGET_DIR_=]
+        ignore line: [#$ _TARGET_DIR_=targets/x86_64-linux]
+        ignore line: [#$ TOP=/opt/cuda/bin/..]
+        ignore line: [#$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice]
+        ignore line: [#$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:]
+        ignore line: [#$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin]
+        ignore line: [#$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  ]
+        ignore line: [#$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"]
+        ignore line: [#$ CUDAFE_FLAGS=]
+        ignore line: [#$ PTXAS_FLAGS=]
+        ignore line: [#$ nvlink -m64 --arch=sm_52 --register-link-binaries="/tmp/tmpxft_00002f72_00000000-3_cmTC_ad93c_dlink.reg.c"    "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o"  -lcudadevrt  -o "/tmp/tmpxft_00002f72_00000000-5_cmTC_ad93c_dlink.sm_52.cubin" --host-ccbin "/opt/cuda/bin/gcc"]
+        ignore line: [#$ fatbinary -64 -link "--image3=kind=elf sm=52 file=/tmp/tmpxft_00002f72_00000000-5_cmTC_ad93c_dlink.sm_52.cubin" --embedded-fatbin="/tmp/tmpxft_00002f72_00000000-4_cmTC_ad93c_dlink.fatbin.c" ]
+        ignore line: [#$ rm /tmp/tmpxft_00002f72_00000000-4_cmTC_ad93c_dlink.fatbin]
+        ignore line: [#$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"/tmp/tmpxft_00002f72_00000000-4_cmTC_ad93c_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"/tmp/tmpxft_00002f72_00000000-3_cmTC_ad93c_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/opt/cuda/bin/crt/link.stub" -o "/tmp/tmpxft_00002f72_00000000-6_cmTC_ad93c_dlink.o" ]
+        ignore line: [#$ "/opt/cuda/bin"/g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "/tmp/tmpxft_00002f72_00000000-6_cmTC_ad93c_dlink.o" "CMakeFiles/cmTC_ad93c.dir/CMakeCCompilerABI.c.o"   "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "cmTC_ad93c" ]
+        ignore line: [make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-L6EWd1']
         ignore line: []
-        ignore line: [warning: MPFR header version 4.2.0-p12 differs from library version 4.2.1.]
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/]
-        ignore line: [ .]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c0cf.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o /tmp/ccwrBYho.s]
-        ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_1c0cf]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c0cf.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/mpicc  -v CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o -o cmTC_1c0cf ]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/gcc]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
-        ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1c0cf' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1c0cf.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc12f9VG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1c0cf /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o -rpath /usr/lib --enable-new-dtags -lmpi -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc12f9VG.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_1c0cf] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
-          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_1c0cf.dir/CMakeCCompilerABI.c.o] ==> ignore
-          arg [-rpath] ==> ignore
-          arg [/usr/lib] ==> ignore
-          arg [--enable-new-dtags] ==> ignore
-          arg [-lmpi] ==> lib [mpi]
-          arg [-lgcc] ==> lib [gcc]
-          arg [--push-state] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [--pop-state] ==> ignore
-          arg [-lc] ==> lib [c]
-          arg [-lgcc] ==> lib [gcc]
-          arg [--push-state] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [--pop-state] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> [/usr/lib]
-        implicit libs: [mpi;gcc;gcc_s;c;gcc;gcc_s]
-        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/usr/lib/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib]
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
         implicit fwks: []
       
       
@@ -301,8 +212,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH"
-      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH"
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -311,68 +222,57 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH'
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8a177/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_8a177.dir/build.make CMakeFiles/cmTC_8a177.dir/build
-        make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH'
-        Building CXX object CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/mpicxx   -v -o CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/g++
-        Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8a177.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8a177.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccjEv0gN.s
-        GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
-        	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
-        
-        warning: MPFR header version 4.2.0-p12 differs from library version 4.2.1.
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include
-         /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/
-         .
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include
-         /usr/local/include
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed
-         /usr/include
-        End of search list.
-        Compiler executable checksum: 5a490a353c29b926850bca65a518c219
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8a177.dir/'
-         as -v --64 -o CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjEv0gN.s
-        GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_8a177
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a177.dir/link.txt --verbose=1
-        /usr/bin/mpicxx  -v CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8a177 
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/g++
-        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
-        Target: x86_64-pc-linux-gnu
-        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 13.2.1 20230801 (GCC) 
-        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a177' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8a177.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpHPzjP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8a177 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o -rpath /usr/lib --enable-new-dtags -lmpi_cxx -lmpi -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a177' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8a177.'
-        make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27642/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_27642.dir/build.make CMakeFiles/cmTC_27642.dir/build
+        make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO'
+        Building CXX object CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/cuda/bin/nvcc   -v -o CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        #$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=/opt/cuda/bin
+        #$ _THERE_=/opt/cuda/bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_DIR_=targets/x86_64-linux
+        #$ TOP=/opt/cuda/bin/..
+        #$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice
+        #$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:
+        #$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin
+        #$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  
+        #$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"
+        #$ CUDAFE_FLAGS=
+        #$ PTXAS_FLAGS=
+        #$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -D__NVCC__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp" -o "CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o" 
+        Linking CXX executable cmTC_27642
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27642.dir/link.txt --verbose=1
+        /opt/cuda/bin/nvcc  -v CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_27642 
+        #$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=/opt/cuda/bin
+        #$ _THERE_=/opt/cuda/bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_DIR_=targets/x86_64-linux
+        #$ TOP=/opt/cuda/bin/..
+        #$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice
+        #$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:
+        #$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin
+        #$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  
+        #$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"
+        #$ CUDAFE_FLAGS=
+        #$ PTXAS_FLAGS=
+        #$ nvlink -m64 --arch=sm_52 --register-link-binaries="/tmp/tmpxft_00002f93_00000000-3_cmTC_27642_dlink.reg.c"    "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o"  -lcudadevrt  -o "/tmp/tmpxft_00002f93_00000000-5_cmTC_27642_dlink.sm_52.cubin" --host-ccbin "/opt/cuda/bin/gcc"
+        #$ fatbinary -64 -link "--image3=kind=elf,sm=52,file=/tmp/tmpxft_00002f93_00000000-5_cmTC_27642_dlink.sm_52.cubin" --embedded-fatbin="/tmp/tmpxft_00002f93_00000000-4_cmTC_27642_dlink.fatbin.c" 
+        #$ rm /tmp/tmpxft_00002f93_00000000-4_cmTC_27642_dlink.fatbin
+        #$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"/tmp/tmpxft_00002f93_00000000-4_cmTC_27642_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"/tmp/tmpxft_00002f93_00000000-3_cmTC_27642_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/opt/cuda/bin/crt/link.stub" -o "/tmp/tmpxft_00002f93_00000000-6_cmTC_27642_dlink.o" 
+        #$ "/opt/cuda/bin"/g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "/tmp/tmpxft_00002f93_00000000-6_cmTC_27642_dlink.o" "CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o"   "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "cmTC_27642" 
+        make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO'
         
       exitCode: 0
   -
@@ -382,37 +282,8 @@ events:
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:24 (project)"
     message: |
-      Parsed CXX implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include]
-          add: [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/]
-          add: [.]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
-          add: [/usr/local/include]
-          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include]
-        collapse include dir [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/] ==> [/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include]
-        skipping relative include dir [.]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1] ==> [/usr/include/c++/13.2.1]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/13.2.1/x86_64-pc-linux-gnu]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward] ==> [/usr/include/c++/13.2.1/backward]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include;/usr/include/c++/13.2.1;/usr/include/c++/13.2.1/x86_64-pc-linux-gnu;/usr/include/c++/13.2.1/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include]
+      Parsed CXX implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
       
       
   -
@@ -424,120 +295,62 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH']
+        ignore line: [Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8a177/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8a177.dir/build.make CMakeFiles/cmTC_8a177.dir/build]
-        ignore line: [make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-xpBHuH']
-        ignore line: [Building CXX object CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/mpicxx   -v -o CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/g++]
-        ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8a177.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8a177.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccjEv0gN.s]
-        ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
-        ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27642/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_27642.dir/build.make CMakeFiles/cmTC_27642.dir/build]
+        ignore line: [make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO']
+        ignore line: [Building CXX object CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/cuda/bin/nvcc   -v -o CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [#$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"]
+        ignore line: [#$ _NVVM_BRANCH_=nvvm]
+        ignore line: [#$ _SPACE_= ]
+        ignore line: [#$ _CUDART_=cudart]
+        ignore line: [#$ _HERE_=/opt/cuda/bin]
+        ignore line: [#$ _THERE_=/opt/cuda/bin]
+        ignore line: [#$ _TARGET_SIZE_=]
+        ignore line: [#$ _TARGET_DIR_=]
+        ignore line: [#$ _TARGET_DIR_=targets/x86_64-linux]
+        ignore line: [#$ TOP=/opt/cuda/bin/..]
+        ignore line: [#$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice]
+        ignore line: [#$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:]
+        ignore line: [#$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin]
+        ignore line: [#$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  ]
+        ignore line: [#$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"]
+        ignore line: [#$ CUDAFE_FLAGS=]
+        ignore line: [#$ PTXAS_FLAGS=]
+        ignore line: [#$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -D__NVCC__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp" -o "CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o" ]
+        ignore line: [Linking CXX executable cmTC_27642]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27642.dir/link.txt --verbose=1]
+        ignore line: [/opt/cuda/bin/nvcc  -v CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_27642 ]
+        ignore line: [#$ NVCC_PREPEND_FLAGS="-ccbin /opt/cuda/bin"]
+        ignore line: [#$ _NVVM_BRANCH_=nvvm]
+        ignore line: [#$ _SPACE_= ]
+        ignore line: [#$ _CUDART_=cudart]
+        ignore line: [#$ _HERE_=/opt/cuda/bin]
+        ignore line: [#$ _THERE_=/opt/cuda/bin]
+        ignore line: [#$ _TARGET_SIZE_=]
+        ignore line: [#$ _TARGET_DIR_=]
+        ignore line: [#$ _TARGET_DIR_=targets/x86_64-linux]
+        ignore line: [#$ TOP=/opt/cuda/bin/..]
+        ignore line: [#$ NVVMIR_LIBRARY_DIR=/opt/cuda/bin/../nvvm/libdevice]
+        ignore line: [#$ LD_LIBRARY_PATH=/opt/cuda/bin/../lib:]
+        ignore line: [#$ PATH=/opt/cuda/bin/../nvvm/bin:/opt/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/opt/flutter/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/home/gh0s7/.local/bin:/home/gh0s7/.local/bin:./node_modules/.bin]
+        ignore line: [#$ INCLUDES="-I/opt/cuda/bin/../targets/x86_64-linux/include"  ]
+        ignore line: [#$ LIBRARIES=  "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"]
+        ignore line: [#$ CUDAFE_FLAGS=]
+        ignore line: [#$ PTXAS_FLAGS=]
+        ignore line: [#$ nvlink -m64 --arch=sm_52 --register-link-binaries="/tmp/tmpxft_00002f93_00000000-3_cmTC_27642_dlink.reg.c"    "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o"  -lcudadevrt  -o "/tmp/tmpxft_00002f93_00000000-5_cmTC_27642_dlink.sm_52.cubin" --host-ccbin "/opt/cuda/bin/gcc"]
+        ignore line: [#$ fatbinary -64 -link "--image3=kind=elf sm=52 file=/tmp/tmpxft_00002f93_00000000-5_cmTC_27642_dlink.sm_52.cubin" --embedded-fatbin="/tmp/tmpxft_00002f93_00000000-4_cmTC_27642_dlink.fatbin.c" ]
+        ignore line: [#$ rm /tmp/tmpxft_00002f93_00000000-4_cmTC_27642_dlink.fatbin]
+        ignore line: [#$ "/opt/cuda/bin"/gcc -D__CUDA_ARCH_LIST__=520 -c -x c++ -DFATBINFILE="\\"/tmp/tmpxft_00002f93_00000000-4_cmTC_27642_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"/tmp/tmpxft_00002f93_00000000-3_cmTC_27642_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/opt/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=103 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -m64 "/opt/cuda/bin/crt/link.stub" -o "/tmp/tmpxft_00002f93_00000000-6_cmTC_27642_dlink.o" ]
+        ignore line: [#$ "/opt/cuda/bin"/g++ -D__CUDA_ARCH_LIST__=520 -m64 -Wl,--start-group "/tmp/tmpxft_00002f93_00000000-6_cmTC_27642_dlink.o" "CMakeFiles/cmTC_27642.dir/CMakeCXXCompilerABI.cpp.o"   "-L/opt/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/opt/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "cmTC_27642" ]
+        ignore line: [make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-m4WTgO']
         ignore line: []
-        ignore line: [warning: MPFR header version 4.2.0-p12 differs from library version 4.2.1.]
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include]
-        ignore line: [ /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/]
-        ignore line: [ .]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 5a490a353c29b926850bca65a518c219]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8a177.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccjEv0gN.s]
-        ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_8a177]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a177.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/mpicxx  -v CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8a177 ]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/g++]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
-        ignore line: [Target: x86_64-pc-linux-gnu]
-        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a177' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8a177.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpHPzjP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8a177 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o -rpath /usr/lib --enable-new-dtags -lmpi_cxx -lmpi -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccpHPzjP.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_8a177] ==> ignore
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
-          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_8a177.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-rpath] ==> ignore
-          arg [/usr/lib] ==> ignore
-          arg [--enable-new-dtags] ==> ignore
-          arg [-lmpi_cxx] ==> lib [mpi_cxx]
-          arg [-lmpi] ==> lib [mpi]
-          arg [-lstdc++] ==> lib [stdc++]
-          arg [-lm] ==> lib [m]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> [/usr/lib]
-        implicit libs: [mpi_cxx;mpi;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/usr/lib/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib]
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
         implicit fwks: []
       
       
@@ -552,8 +365,8 @@ events:
     checks:
       - "Looking for sgemm_"
     directories:
-      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ykXoQG"
-      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ykXoQG"
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-9BlgRw"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-9BlgRw"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -563,22 +376,22 @@ events:
       variable: "BLAS_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ykXoQG'
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-9BlgRw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bd916/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_bd916.dir/build.make CMakeFiles/cmTC_bd916.dir/build
-        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ykXoQG”
-        Building C object CMakeFiles/cmTC_bd916.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_bd916.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ykXoQG/CheckFunctionExists.c
-        Linking C executable cmTC_bd916
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd916.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_bd916.dir/CheckFunctionExists.c.o -o cmTC_bd916 
-        /usr/bin/ld: CMakeFiles/cmTC_bd916.dir/CheckFunctionExists.c.o: in function `main':
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6aa47/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6aa47.dir/build.make CMakeFiles/cmTC_6aa47.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-9BlgRw”
+        Building C object CMakeFiles/cmTC_6aa47.dir/CheckFunctionExists.c.o
+        /opt/cuda/bin/nvcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_6aa47.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-9BlgRw/CheckFunctionExists.c
+        Linking C executable cmTC_6aa47
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa47.dir/link.txt --verbose=1
+        /opt/cuda/bin/nvcc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_6aa47.dir/CheckFunctionExists.c.o -o cmTC_6aa47 
+        /usr/bin/ld: CMakeFiles/cmTC_6aa47.dir/CheckFunctionExists.c.o: in function `main':
         CheckFunctionExists.c:(.text+0x10): undefined reference to `sgemm_'
         collect2: 错误：ld 返回 1
-        make[1]: *** [CMakeFiles/cmTC_bd916.dir/build.make:99：cmTC_bd916] 错误 1
-        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ykXoQG”
-        make: *** [Makefile:127：cmTC_bd916/fast] 错误 2
+        make[1]: *** [CMakeFiles/cmTC_6aa47.dir/build.make:99：cmTC_6aa47] 错误 1
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-9BlgRw”
+        make: *** [Makefile:127：cmTC_6aa47/fast] 错误 2
         
       exitCode: 2
   -
@@ -594,8 +407,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ZiMrzD"
-      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ZiMrzD"
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-R0dOy7"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-R0dOy7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -605,17 +418,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ZiMrzD'
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-R0dOy7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00bf0/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_00bf0.dir/build.make CMakeFiles/cmTC_00bf0.dir/build
-        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ZiMrzD”
-        Building C object CMakeFiles/cmTC_00bf0.dir/src.c.o
-        /usr/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_00bf0.dir/src.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ZiMrzD/src.c
-        Linking C executable cmTC_00bf0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00bf0.dir/link.txt --verbose=1
-        /usr/bin/mpicc CMakeFiles/cmTC_00bf0.dir/src.c.o -o cmTC_00bf0 
-        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ZiMrzD”
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c2e6e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c2e6e.dir/build.make CMakeFiles/cmTC_c2e6e.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-R0dOy7”
+        Building C object CMakeFiles/cmTC_c2e6e.dir/src.c.o
+        /opt/cuda/bin/nvcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c2e6e.dir/src.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-R0dOy7/src.c
+        Linking C executable cmTC_c2e6e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2e6e.dir/link.txt --verbose=1
+        /opt/cuda/bin/nvcc CMakeFiles/cmTC_c2e6e.dir/src.c.o -o cmTC_c2e6e 
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-R0dOy7”
         
       exitCode: 0
   -
@@ -629,8 +442,8 @@ events:
     checks:
       - "Looking for sgemm_"
     directories:
-      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-UzyPUN"
-      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-UzyPUN"
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-FZ2x7d"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-FZ2x7d"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -640,17 +453,17 @@ events:
       variable: "BLAS_openblas_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-UzyPUN'
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-FZ2x7d'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ed13/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_4ed13.dir/build.make CMakeFiles/cmTC_4ed13.dir/build
-        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-UzyPUN”
-        Building C object CMakeFiles/cmTC_4ed13.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_4ed13.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-UzyPUN/CheckFunctionExists.c
-        Linking C executable cmTC_4ed13
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed13.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_4ed13.dir/CheckFunctionExists.c.o -o cmTC_4ed13  /usr/lib/libopenblas.so 
-        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-UzyPUN”
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ffe08/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ffe08.dir/build.make CMakeFiles/cmTC_ffe08.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-FZ2x7d”
+        Building C object CMakeFiles/cmTC_ffe08.dir/CheckFunctionExists.c.o
+        /opt/cuda/bin/nvcc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_ffe08.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-FZ2x7d/CheckFunctionExists.c
+        Linking C executable cmTC_ffe08
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffe08.dir/link.txt --verbose=1
+        /opt/cuda/bin/nvcc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_ffe08.dir/CheckFunctionExists.c.o -o cmTC_ffe08  /usr/lib/libopenblas.so 
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-FZ2x7d”
         
       exitCode: 0
   -
@@ -664,8 +477,8 @@ events:
     checks:
       - "Looking for cheev_"
     directories:
-      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nheXEM"
-      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nheXEM"
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-7EZEVv"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-7EZEVv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -675,17 +488,17 @@ events:
       variable: "LAPACK_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nheXEM'
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-7EZEVv'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6977c/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_6977c.dir/build.make CMakeFiles/cmTC_6977c.dir/build
-        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nheXEM”
-        Building C object CMakeFiles/cmTC_6977c.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_6977c.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nheXEM/CheckFunctionExists.c
-        Linking C executable cmTC_6977c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6977c.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_6977c.dir/CheckFunctionExists.c.o -o cmTC_6977c  /usr/lib/libopenblas.so -lm -ldl 
-        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-nheXEM”
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d1efe/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d1efe.dir/build.make CMakeFiles/cmTC_d1efe.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-7EZEVv”
+        Building C object CMakeFiles/cmTC_d1efe.dir/CheckFunctionExists.c.o
+        /opt/cuda/bin/nvcc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_d1efe.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-7EZEVv/CheckFunctionExists.c
+        Linking C executable cmTC_d1efe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1efe.dir/link.txt --verbose=1
+        /opt/cuda/bin/nvcc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_d1efe.dir/CheckFunctionExists.c.o -o cmTC_d1efe  /usr/lib/libopenblas.so -lm -ldl 
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-7EZEVv”
         
       exitCode: 0
 ...

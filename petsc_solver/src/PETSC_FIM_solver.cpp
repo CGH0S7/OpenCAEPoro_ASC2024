@@ -148,7 +148,7 @@ int FIM_solver_p_cpr(int is_thermal, int myid, int num_procs, int nb,
   PetscInt Ii, iters;
   PetscErrorCode ierr;
 
-#pragma acc parallel loop gang vector collapse(2)
+#pragma acc parallel loop gang vector
   for (int i = 0; i < nBlockRows; i++) {
     nDCount[i] = 0;
     for (int j = rpt[i]; j < rpt[i + 1]; j++) {
@@ -175,27 +175,22 @@ int FIM_solver_p_cpr(int is_thermal, int myid, int num_procs, int nb,
   int *globalx = (int *)malloc(blockSize * sizeof(int));
   int *globaly = (int *)malloc(blockSize * sizeof(int));
 
-#pragma acc parallel num_gangs(nBlockRows)                                     \
-    copyin(rpt[0 : nBlockRows + 1], cpt[0 : rpt[nBlockRows]],                  \
-               valpt[0 : blockSize * blockSize * rpt[nBlockRows]])
-  {
-#pragma acc loop gang vector
-    for (Ii = 0; Ii < nBlockRows; Ii++) {
-#pragma acc loop gang vector
-      for (i = 0; i < blockSize; i++) {
-        globalx[i] = (Ii + Istart) * blockSize + i;
-      }
-#pragma acc loop gang vector
-      for (int i = rpt[Ii]; i < rpt[Ii + 1]; i++) {
+  // #pragma acc parallel
+  for (Ii = 0; Ii < nBlockRows; Ii++) {
+#pragma acc parallel loop gang vector
+    for (i = 0; i < blockSize; i++) {
+      globalx[i] = (Ii + Istart) * blockSize + i;
+    }
+    for (int i = rpt[Ii]; i < rpt[Ii + 1]; i++) {
 
-        for (int j = 0; j < blockSize; j++) {
-          globaly[j] = cpt[i] * blockSize + j;
-        }
-        ierr = MatSetValues(A, blockSize, globalx, blockSize, globaly, valpt,
-                            INSERT_VALUES);
-        CHKERRQ(ierr);
-        valpt += blockSize * blockSize;
+#pragma acc parallel loop vector
+      for (int j = 0; j < blockSize; j++) {
+        globaly[j] = cpt[i] * blockSize + j;
       }
+      ierr = MatSetValues(A, blockSize, globalx, blockSize, globaly, valpt,
+                          INSERT_VALUES);
+      CHKERRQ(ierr);
+      valpt += blockSize * blockSize;
     }
   }
 
@@ -214,7 +209,7 @@ int FIM_solver_p_cpr(int is_thermal, int myid, int num_procs, int nb,
   CHKERRQ(ierr);
 
   int *bIndex = (int *)malloc(rowWidth * sizeof(int));
-#pragma acc parallel loop gang vector
+#pragma acc parallel loop
   for (i = 0; i < rowWidth; i++) {
     bIndex[i] = Istart * blockSize + i;
   }

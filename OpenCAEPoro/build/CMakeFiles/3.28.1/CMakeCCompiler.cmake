@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "/usr/bin/mpicc")
+set(CMAKE_C_COMPILER "/opt/cuda/bin/nvcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "13.2.1")
+set(CMAKE_C_COMPILER_VERSION "12.3.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "17")
@@ -22,9 +22,9 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar")
+set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-12")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-12")
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
@@ -39,7 +39,7 @@ set(CMAKE_C_COMPILER_ID_RUN 1)
 set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)
 set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
-set(CMAKE_C_LINKER_DEPFILE_SUPPORTED TRUE)
+set(CMAKE_C_LINKER_DEPFILE_SUPPORTED FALSE)
 
 # Save compiler ABI information.
 set(CMAKE_C_SIZEOF_DATA_PTR "8")
@@ -68,7 +68,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include;/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mpi;gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

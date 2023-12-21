@@ -7,8 +7,8 @@
 
 export CC=mpicc
 export CXX=mpicxx
-#export CFLAGS += "-O3 -Xcompiler -fopenacc"
-#export CXXFLAGS += "-O3 -Xcompiler -fopenacc"
+export CFLAGS+="-O3 -fopenacc"
+export CXXFLAGS+="-O3 -fopenacc"
 
 
 # users specific directory paths

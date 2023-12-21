@@ -73,953 +73,953 @@ CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o: CMakeFiles/OpenCAEPoroX.dir
 CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp > CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp > CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AcceleratePEC.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/AcceleratePEC.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp > CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp > CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/AllWells.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/AllWells.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BoundaryFlow.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BoundaryFlow.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Bulk.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Bulk.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkAccumuModule.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkAccumuModule.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConn.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConn.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkConnTrans.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkConnTrans.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp > CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/BulkInitializer.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/BulkInitializer.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp > CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp > CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/CornerGrid.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/CornerGrid.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Decoupling.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Decoupling.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp > CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp > CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/DenseMat.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/DenseMat.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Domain.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Domain.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FaspSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/FaspSolver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp > CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp > CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/FlowUnit.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/FlowUnit.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp > CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp > CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/GmshGrid.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/GmshGrid.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp > CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp > CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatConduct.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/HeatConduct.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp > CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp > CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/HeatLoss.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/HeatLoss.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp > CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp > CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsoThermalMethod.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/IsoThermalMethod.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/IsothermalSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/IsothermalSolver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp > CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp > CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/LinearSystem.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/LinearSystem.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp > CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp > CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/MixtureUnit.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/MixtureUnit.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCP.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCP.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPBoundary.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPBoundary.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPControl.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPControl.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPEoS.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPEoS.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlow.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlow.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlowMethod.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlowMethod.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFlux.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFlux.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncPVT.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncPVT.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPFuncSAT.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPFuncSAT.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMiscible.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMiscible.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixture.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixture.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodComp.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodComp.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPMixtureMethodK.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPMixtureMethodK.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRresidual.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRresidual.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPNRsuite.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPNRsuite.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPOutput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPOutput.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPPhaseEquilibrium.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPPhaseEquilibrium.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPRock.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPRock.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPScalePcow.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPScalePcow.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPSurfaceTension.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPSurfaceTension.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTable.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTable.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPTimeRecord.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPTimeRecord.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp > CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/OCPUnits.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/OCPUnits.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Output4Vtk.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Output4Vtk.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamControl.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamControl.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamOutput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamOutput.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamRead.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamRead.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamReservoir.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamReservoir.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ParamWell.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ParamWell.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PardisoSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PardisoSolver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Partition.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Partition.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PetscSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PetscSolver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreParamGridWell.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PreParamGridWell.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp > CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/PreProcess.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/PreProcess.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Reservoir.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Reservoir.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/SamgSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/SamgSolver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Solver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Solver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalMethod.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalMethod.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp > CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/ThermalSolver.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/ThermalSolver.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilInput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilInput.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMath.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMath.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilMesh.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilMesh.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilOutput.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilOutput.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp > CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/UtilTiming.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/UtilTiming.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp > CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/Well.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/Well.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp > CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp > CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellOpt.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/WellOpt.cpp.s
 
 CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o: CMakeFiles/OpenCAEPoroX.dir/flags.make
 CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o: /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp
 CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o: CMakeFiles/OpenCAEPoroX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o -MF CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o.d -o CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp
 
 CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.i"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp > CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.i
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp > CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.i
 
 CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.s"
-	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.s
+	/opt/cuda/bin/nvcc $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/src/WellPeaceman.cpp -o CMakeFiles/OpenCAEPoroX.dir/src/WellPeaceman.cpp.s
 
 # Object files for target OpenCAEPoroX
 OpenCAEPoroX_OBJECTS = \

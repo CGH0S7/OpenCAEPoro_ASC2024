@@ -6,8 +6,8 @@
 
 export CC=mpicc
 export CXX=mpicxx
-export CFLAGS += "-O3 -fopenacc"
-export CXXFLAGS += "-O3 -fopenacc"
+export CFLAGS="-O3 -fopenacc"
+export CXXFLAGS="-O3 -fopenacc"
 
 export CPATH=/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include:/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/LAPACKE/include:$CPATH
 export LD_LIBRARY_PATH=/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11:$LD_LIBRARY_PATH
