@@ -1,0 +1,41 @@
+  Rank     Grid Num     Updating Properties(s)     Assembling(s)     Communication(collect)(s)     Communication(P2P)(s)     1AllReduce(OCPCheck)(s)     Newton Step(s)     Newton Step(c)(s)
+     0        32810                     27.345            44.226                         6.563                    24.469                       1.537              4.894                 4.160
+     1        31495                     25.791            42.522                         7.662                    25.562                       0.385              5.888                 4.035
+     2        31116                     25.770            42.222                         8.879                    25.515                       0.730              5.758                 3.951
+     3        32850                     27.397            45.614                         6.994                    22.592                       1.381              5.238                 4.241
+     4        31532                     25.802            41.796                        10.297                    24.056                       0.589              5.805                 4.052
+     5        32979                     26.954            44.587                         6.500                    23.592                       0.655              5.463                 4.116
+     6        31678                     29.602            67.072                         0.391                     1.429                       0.112              6.209                 5.490
+     7        31540                     29.773            67.703                         0.284                     0.679                       0.130              6.155                 5.501
+
+==================================================
+Item                          Average     Varance         Max         Min
+Grid Num                        32000         699       32979       31116
+Updating Properties(s)         27.304       1.517      29.773      25.770
+Assembling(s)                  49.468      10.417      67.703      41.796
+Communication(collect)(s)       5.946       3.449      10.297       0.284
+Communication(P2P)(s)          18.487      10.107      25.562       0.679
+1AllReduce(OCPCheck)(s)         0.690       0.494       1.537       0.112
+Newton Step(s)                  5.676       0.423       6.209       4.894
+Newton Step(c)(s)               4.443       0.613       5.501       3.951
+==================================================
+Final time:                   3600.000( Day )
+ - Avg time step size .......   10.843 (332 steps)
+ - Avg Newton steps .........    3.973 (1319 succeeded + 72 wasted)
+ - Avg linear steps .........    5.509 (7267 succeeded + 521 wasted)
+Simulation time:                 1548.373 (Seconds)
+ - % Input & Partition .........    0.006 (0.092s)
+ - % Partition - ParMetis ......    0.002 (0.036s)
+ - % Input Reservoir ...........    0.004 (0.067s)
+ - % Setup Simulator ...........    0.001 (0.019s)
+ - % Initialization ............    0.005 (0.079s)
+ - % Assembling ................    2.856 (44.226s)
+ - % Assembling for LS interface    2.500 (38.712s)
+ - % Linear Solver .............   91.645 (1419.003s)
+ - % Newton Step ...............    0.316 (4.894s)
+ - % Updating Properties .......    1.766 (27.345s)
+ - % Output ....................    0.008 (0.117s)
+==================================================
+
+OBJECT TIME:   239.435 s 
+

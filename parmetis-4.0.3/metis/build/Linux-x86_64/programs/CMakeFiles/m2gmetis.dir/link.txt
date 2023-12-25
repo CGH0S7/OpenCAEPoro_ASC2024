@@ -1,0 +1,1 @@
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc   -DLINUX -D_FILE_OFFSET_BITS=64 -DNDEBUG -DNDEBUG2 -DHAVE_EXECINFO_H -DHAVE_GETLINE -O3    CMakeFiles/m2gmetis.dir/m2gmetis.c.o CMakeFiles/m2gmetis.dir/cmdline_m2gmetis.c.o CMakeFiles/m2gmetis.dir/io.c.o  -o m2gmetis  -L/home/karypis/local/lib -rdynamic ../libmetis/libmetis.a -lm -Wl,-rpath,/home/karypis/local/lib: 

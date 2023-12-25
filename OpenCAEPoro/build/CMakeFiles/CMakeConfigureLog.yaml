@@ -1,0 +1,536 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      The system is: Linux - 6.6.8-zen1-1-zen - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is NVHPC, found in:
+        /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicxx 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is NVHPC, found in:
+        /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g -O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f032/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8f032.dir/build.make CMakeFiles/cmTC_8f032.dir/build
+        make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K'
+        Building C object CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc   -v -MD -MT CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11
+        Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk
+        Create file CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d
+        
+        /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp1 --llalign -D__GNUC__=12 -D__GNUC_MINOR__=3 -D__GNUC_PATCHLEVEL__=0 -D__unix -D__unix__ -Dunix -Dlinux -D__linux -D__linux__ -D__NO_MATH_INLINES -D__LP64__ -D__x86_64 -D__x86_64__ -D__LONG_MAX__=9223372036854775807L '-D__SIZE_TYPE__=unsigned long int' '-D__PTRDIFF_TYPE__=long int' -D__amd64 -D__amd64__ -D__k8 -D__k8__ -D__MMX__ -D__SSE_MATH__ -D__MMX_WITH_SSE__ -D__SSE__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE4_1__ -D__SSE4_2__ -D__ABM__ -D__ADX__ -D__AES__ -D__AVX__ -D__AVX2__ -D__AVXVNNI__ -D__BMI__ -D__BMI2__ -D__CLFLUSHOPT__ -D__CLWB__ -D__CX16__ -D__F16C__ -D__FMA__ -D__FSGSBASE__ -D__FXSR__ -D__GFNI__ -D__HRESET__ -D__KL__ -D__LZCNT__ -D__MOVBE__ -D__MOVDIR64B__ -D__MOVDIRI__ -D__PCLMUL__ -D__PKU__ -D__POPCNT__ -D__PRFCHW__ -D__PTWRITE__ -D__RDPID__ -D__RDRND__ -D__RDSEED__ -D__LAHF_SAHF__ -D__SERIALIZE__ -D__SHA__ -D__SHSTK__ -D__VAES__ -D__VPCLMULQDQ__ -D__WAITPKG__ -D__WIDEKL__ -D__XSAVE__ -D__XSAVEC__ -D__XSAVEOPT__ -D__XSAVES__ -D__PGI -D__NVCOMPILER -D_PGCG_SOURCE --c -I- -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/ -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/extras/qd/include/qd -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nvshmem/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nccl/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/math_libs/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include-stdexec --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include-fixed --sys_include /usr/include -D__PGLLVM__ -D__NVCOMPILER_LLVM__ -D__extension__= -D_REENTRANT --preinclude _cplus_preinclude.h --preinclude_macros _cplus_macros.h --gnu_version=120300 -D__pgnu_vsn=120300 --no_fixed_bp --dependencies_target_to_stdout CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o --dependencies_to_file CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d -q -o /tmp/nvcYPhcwJNZ-wWu.il /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        
+        /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp2 /usr/share/cmake/Modules/CMakeCCompilerABI.c -opt 1 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp haswell -x 120 0x1000 -astype 0 -x 121 1 -fn /usr/share/cmake/Modules/CMakeCCompilerABI.c -il /tmp/nvcYPhcwJNZ-wWu.il -x 123 0x80000000 -x 123 4 -x 2 0x400 -x 209 0x10 -x 119 0x20 -def __pgnu_vsn=120300 -x 70 0x40000000 -x 183 4 -x 121 0x800 -x 6 0x20000 -x 122 0x400000 -y 125 0x100000 -x 249 160 -x 120 0x200000 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 120 0x1000000 -x 73 0x04 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -gnuvsn 120300 -x 69 0x200 -x 123 0x400 -cmdline '+nvc /tmp/nvcYPhcwJNZ-wWu.il -v -MD -MT CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -c -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -pthread' -asm /tmp/nvcsPhc2UdNM_nM.ll
+        NVC++/x86-64 Linux 23.11-0: compilation successful
+        
+        /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/share/llvm/bin/llc /tmp/nvcsPhc2UdNM_nM.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+sha -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -mattr=+gfni -mattr=+vaes -mattr=+vpclmulqdq -mattr=+movdiri -mattr=+movdir64b -mattr=+adx -mattr=+avxvnni -mattr=+clwb -mattr=+cx16 -mattr=+hreset -mattr=+kl -mattr=+movbe -mattr=+prfchw -mattr=+ptwrite -mattr=+rdpid -mattr=+rdseed -mattr=+sahf -mattr=+serialize -mattr=+shstk -mattr=+waitpkg -mattr=+widekl -O1 -opaque-pointers -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false -override-aa-for-tbaa=true --align-all-functions=6 -filetype=obj --frame-pointer=none -o CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o
+        Unlinking /tmp/nvcYPhcwJNZ-wWu.il
+        Unlinking /tmp/nvccPhcg_JrUiTs.s
+        Unlinking /tmp/nvcsPhc2UdNM_nM.ll
+        Unlinking /tmp/nvcIPhcMLHWEqTV.llvm
+        Linking C executable cmTC_8f032
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f032.dir/link.txt --verbose=1
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc  -v CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -o cmTC_8f032 
+        Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11
+        Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk
+        
+        /usr/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib/nvhpc.ld -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/ CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib --enable-new-dtags -lmpi -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -o cmTC_8f032 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64 -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lgcc -lc -lgcc_s -lm /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o /usr/lib64/crtn.o
+        make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f032/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8f032.dir/build.make CMakeFiles/cmTC_8f032.dir/build]
+        ignore line: [make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-isO17K']
+        ignore line: [Building C object CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc   -v -MD -MT CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11]
+        ignore line: [Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk]
+        ignore line: [Create file CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d]
+        ignore line: []
+        ignore line: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp1 --llalign -D__GNUC__=12 -D__GNUC_MINOR__=3 -D__GNUC_PATCHLEVEL__=0 -D__unix -D__unix__ -Dunix -Dlinux -D__linux -D__linux__ -D__NO_MATH_INLINES -D__LP64__ -D__x86_64 -D__x86_64__ -D__LONG_MAX__=9223372036854775807L '-D__SIZE_TYPE__=unsigned long int' '-D__PTRDIFF_TYPE__=long int' -D__amd64 -D__amd64__ -D__k8 -D__k8__ -D__MMX__ -D__SSE_MATH__ -D__MMX_WITH_SSE__ -D__SSE__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE4_1__ -D__SSE4_2__ -D__ABM__ -D__ADX__ -D__AES__ -D__AVX__ -D__AVX2__ -D__AVXVNNI__ -D__BMI__ -D__BMI2__ -D__CLFLUSHOPT__ -D__CLWB__ -D__CX16__ -D__F16C__ -D__FMA__ -D__FSGSBASE__ -D__FXSR__ -D__GFNI__ -D__HRESET__ -D__KL__ -D__LZCNT__ -D__MOVBE__ -D__MOVDIR64B__ -D__MOVDIRI__ -D__PCLMUL__ -D__PKU__ -D__POPCNT__ -D__PRFCHW__ -D__PTWRITE__ -D__RDPID__ -D__RDRND__ -D__RDSEED__ -D__LAHF_SAHF__ -D__SERIALIZE__ -D__SHA__ -D__SHSTK__ -D__VAES__ -D__VPCLMULQDQ__ -D__WAITPKG__ -D__WIDEKL__ -D__XSAVE__ -D__XSAVEC__ -D__XSAVEOPT__ -D__XSAVES__ -D__PGI -D__NVCOMPILER -D_PGCG_SOURCE --c -I- -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/ -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/extras/qd/include/qd -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nvshmem/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nccl/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/math_libs/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include-stdexec --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include-fixed --sys_include /usr/include -D__PGLLVM__ -D__NVCOMPILER_LLVM__ -D__extension__= -D_REENTRANT --preinclude _cplus_preinclude.h --preinclude_macros _cplus_macros.h --gnu_version=120300 -D__pgnu_vsn=120300 --no_fixed_bp --dependencies_target_to_stdout CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o --dependencies_to_file CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d -q -o /tmp/nvcYPhcwJNZ-wWu.il /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: []
+        ignore line: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp2 /usr/share/cmake/Modules/CMakeCCompilerABI.c -opt 1 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp haswell -x 120 0x1000 -astype 0 -x 121 1 -fn /usr/share/cmake/Modules/CMakeCCompilerABI.c -il /tmp/nvcYPhcwJNZ-wWu.il -x 123 0x80000000 -x 123 4 -x 2 0x400 -x 209 0x10 -x 119 0x20 -def __pgnu_vsn=120300 -x 70 0x40000000 -x 183 4 -x 121 0x800 -x 6 0x20000 -x 122 0x400000 -y 125 0x100000 -x 249 160 -x 120 0x200000 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 120 0x1000000 -x 73 0x04 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -gnuvsn 120300 -x 69 0x200 -x 123 0x400 -cmdline '+nvc /tmp/nvcYPhcwJNZ-wWu.il -v -MD -MT CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -c -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -pthread' -asm /tmp/nvcsPhc2UdNM_nM.ll]
+        ignore line: [NVC++/x86-64 Linux 23.11-0: compilation successful]
+        ignore line: []
+        ignore line: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/share/llvm/bin/llc /tmp/nvcsPhc2UdNM_nM.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+sha -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -mattr=+gfni -mattr=+vaes -mattr=+vpclmulqdq -mattr=+movdiri -mattr=+movdir64b -mattr=+adx -mattr=+avxvnni -mattr=+clwb -mattr=+cx16 -mattr=+hreset -mattr=+kl -mattr=+movbe -mattr=+prfchw -mattr=+ptwrite -mattr=+rdpid -mattr=+rdseed -mattr=+sahf -mattr=+serialize -mattr=+shstk -mattr=+waitpkg -mattr=+widekl -O1 -opaque-pointers -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false -override-aa-for-tbaa=true --align-all-functions=6 -filetype=obj --frame-pointer=none -o CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o]
+        ignore line: [Unlinking /tmp/nvcYPhcwJNZ-wWu.il]
+        ignore line: [Unlinking /tmp/nvccPhcg_JrUiTs.s]
+        ignore line: [Unlinking /tmp/nvcsPhc2UdNM_nM.ll]
+        ignore line: [Unlinking /tmp/nvcIPhcMLHWEqTV.llvm]
+        ignore line: [Linking C executable cmTC_8f032]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f032.dir/link.txt --verbose=1]
+        ignore line: [/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc  -v CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -o cmTC_8f032 ]
+        ignore line: [Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11]
+        ignore line: [Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk]
+        ignore line: []
+        link line: [/usr/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib/nvhpc.ld -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/ CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib --enable-new-dtags -lmpi -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -o cmTC_8f032 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64 -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lgcc -lc -lgcc_s -lm /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o /usr/lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [/usr/lib64/crt1.o] ==> obj [/usr/lib64/crt1.o]
+          arg [/usr/lib64/crti.o] ==> obj [/usr/lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o]
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-T] ==> ignore
+          arg [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib/nvhpc.ld] ==> ignore
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/]
+          arg [CMakeFiles/cmTC_8f032.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [-lmpi] ==> lib [mpi]
+          arg [-rpath] ==> ignore
+          arg [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8f032] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64]
+          arg [-lnvomp] ==> lib [nvomp]
+          arg [-ldl] ==> lib [dl]
+          arg [--as-needed] ==> ignore
+          arg [-lnvhpcatm] ==> lib [nvhpcatm]
+          arg [-latomic] ==> lib [atomic]
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lnvcpumath] ==> lib [nvcpumath]
+          arg [-lnsnvc] ==> lib [nsnvc]
+          arg [-lnvc] ==> lib [nvc]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lm] ==> lib [m]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o]
+          arg [/usr/lib64/crtn.o] ==> obj [/usr/lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtbegin.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtend.o]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64] ==> [/usr/lib64]
+        implicit libs: [mpi;nvomp;dl;nvhpcatm;atomic;pthread;nvcpumath;nsnvc;nvc;gcc;c;gcc_s;m]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtbegin.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib;/usr/lib64;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g -O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d24b8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d24b8.dir/build.make CMakeFiles/cmTC_d24b8.dir/build
+        make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36'
+        Building CXX object CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicxx   -v -MD -MT CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11
+        Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk
+        Create file CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d
+        
+        /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp1 --llalign -D__GNUC__=12 -D__GNUC_MINOR__=3 -D__GNUC_PATCHLEVEL__=0 -D__unix -D__unix__ -Dunix -Dlinux -D__linux -D__linux__ -D__NO_MATH_INLINES -D__LP64__ -D__x86_64 -D__x86_64__ -D__LONG_MAX__=9223372036854775807L '-D__SIZE_TYPE__=unsigned long int' '-D__PTRDIFF_TYPE__=long int' -D__amd64 -D__amd64__ -D__k8 -D__k8__ -D__MMX__ -D__SSE_MATH__ -D__MMX_WITH_SSE__ -D__SSE__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE4_1__ -D__SSE4_2__ -D__ABM__ -D__ADX__ -D__AES__ -D__AVX__ -D__AVX2__ -D__AVXVNNI__ -D__BMI__ -D__BMI2__ -D__CLFLUSHOPT__ -D__CLWB__ -D__CX16__ -D__F16C__ -D__FMA__ -D__FSGSBASE__ -D__FXSR__ -D__GFNI__ -D__HRESET__ -D__KL__ -D__LZCNT__ -D__MOVBE__ -D__MOVDIR64B__ -D__MOVDIRI__ -D__PCLMUL__ -D__PKU__ -D__POPCNT__ -D__PRFCHW__ -D__PTWRITE__ -D__RDPID__ -D__RDRND__ -D__RDSEED__ -D__LAHF_SAHF__ -D__SERIALIZE__ -D__SHA__ -D__SHSTK__ -D__VAES__ -D__VPCLMULQDQ__ -D__WAITPKG__ -D__WIDEKL__ -D__XSAVE__ -D__XSAVEC__ -D__XSAVEOPT__ -D__XSAVES__ -D__PGI -D__NVCOMPILER -D_GNU_SOURCE -D_PGCG_SOURCE -I- -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/ -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/extras/qd/include/qd -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nvshmem/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nccl/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/math_libs/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include-stdexec --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/c++ --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/c++/x86_64-pc-linux-gnu --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/c++/backward --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include-fixed --sys_include /usr/include -D__PGLLVM__ -D__NVCOMPILER_LLVM__ -D__extension__= -D_REENTRANT --preinclude _cplus_preinclude.h --preinclude_macros _cplus_macros.h --gnu_version=120300 -D__pgnu_vsn=120300 --no_fixed_bp --dependencies_target_to_stdout CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o --dependencies_to_file CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d -q -o /tmp/nvc++AEicozUJL2Z8.il /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        
+        /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp2 /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -opt 1 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp haswell -x 120 0x1000 -astype 0 -x 121 1 -fn /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -il /tmp/nvc++AEicozUJL2Z8.il -x 117 0x200 -x 123 0x80000000 -x 123 4 -x 2 0x400 -x 209 0x10 -x 119 0x20 -def __pgnu_vsn=120300 -x 70 0x40000000 -x 183 4 -x 121 0x800 -x 6 0x20000 -x 249 160 -x 120 0x200000 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 120 0x1000000 -x 73 0x04 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -gnuvsn 120300 -x 69 0x200 -x 123 0x400 -cmdline '+nvc++ /tmp/nvc++AEicozUJL2Z8.il -v -MD -MT CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -c -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -pthread' -asm /tmp/nvc++6EicU6Th-VXa.ll
+        NVC++/x86-64 Linux 23.11-0: compilation successful
+        
+        /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/share/llvm/bin/llc /tmp/nvc++6EicU6Th-VXa.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+sha -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -mattr=+gfni -mattr=+vaes -mattr=+vpclmulqdq -mattr=+movdiri -mattr=+movdir64b -mattr=+adx -mattr=+avxvnni -mattr=+clwb -mattr=+cx16 -mattr=+hreset -mattr=+kl -mattr=+movbe -mattr=+prfchw -mattr=+ptwrite -mattr=+rdpid -mattr=+rdseed -mattr=+sahf -mattr=+serialize -mattr=+shstk -mattr=+waitpkg -mattr=+widekl -O1 -opaque-pointers -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false -override-aa-for-tbaa=true --align-all-functions=6 -filetype=obj --frame-pointer=none -o CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o
+        Unlinking /tmp/nvc++AEicozUJL2Z8.il
+        Unlinking /tmp/nvc++QEic_IH2x3Cr.s
+        Unlinking /tmp/nvc++6EicU6Th-VXa.ll
+        Unlinking /tmp/nvc++kEicEqDkt8SK.llvm
+        Linking CXX executable cmTC_d24b8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d24b8.dir/link.txt --verbose=1
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicxx  -v CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d24b8 
+        Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11
+        Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk
+        
+        /usr/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib/nvhpc.ld -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/ CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib --enable-new-dtags -lmpi -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -o cmTC_d24b8 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64 -latomic -lnvhpcatm -lstdc++ -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lgcc -lc -lgcc_s -lm /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o /usr/lib64/crtn.o
+        make[1]: Leaving directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d24b8/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d24b8.dir/build.make CMakeFiles/cmTC_d24b8.dir/build]
+        ignore line: [make[1]: Entering directory '/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-ghsi36']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicxx   -v -MD -MT CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11]
+        ignore line: [Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk]
+        ignore line: [Create file CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d]
+        ignore line: []
+        ignore line: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp1 --llalign -D__GNUC__=12 -D__GNUC_MINOR__=3 -D__GNUC_PATCHLEVEL__=0 -D__unix -D__unix__ -Dunix -Dlinux -D__linux -D__linux__ -D__NO_MATH_INLINES -D__LP64__ -D__x86_64 -D__x86_64__ -D__LONG_MAX__=9223372036854775807L '-D__SIZE_TYPE__=unsigned long int' '-D__PTRDIFF_TYPE__=long int' -D__amd64 -D__amd64__ -D__k8 -D__k8__ -D__MMX__ -D__SSE_MATH__ -D__MMX_WITH_SSE__ -D__SSE__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE4_1__ -D__SSE4_2__ -D__ABM__ -D__ADX__ -D__AES__ -D__AVX__ -D__AVX2__ -D__AVXVNNI__ -D__BMI__ -D__BMI2__ -D__CLFLUSHOPT__ -D__CLWB__ -D__CX16__ -D__F16C__ -D__FMA__ -D__FSGSBASE__ -D__FXSR__ -D__GFNI__ -D__HRESET__ -D__KL__ -D__LZCNT__ -D__MOVBE__ -D__MOVDIR64B__ -D__MOVDIRI__ -D__PCLMUL__ -D__PKU__ -D__POPCNT__ -D__PRFCHW__ -D__PTWRITE__ -D__RDPID__ -D__RDRND__ -D__RDSEED__ -D__LAHF_SAHF__ -D__SERIALIZE__ -D__SHA__ -D__SHSTK__ -D__VAES__ -D__VPCLMULQDQ__ -D__WAITPKG__ -D__WIDEKL__ -D__XSAVE__ -D__XSAVEC__ -D__XSAVEOPT__ -D__XSAVES__ -D__PGI -D__NVCOMPILER -D_GNU_SOURCE -D_PGCG_SOURCE -I- -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/lapack-3.11/CBLAS/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/petsc_install/include/ -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/metis/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/parmetis-4.0.3/include -I/home/gh0s7/project/OpenCAEPoro_ASC2024/petsc-3.19.3/include/ -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/extras/qd/include/qd -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nvshmem/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/nccl/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/include -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/math_libs/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include --sys_include /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include-stdexec --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/c++ --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/c++/x86_64-pc-linux-gnu --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include/c++/backward --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include --sys_include /usr/local/include --sys_include /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/include-fixed --sys_include /usr/include -D__PGLLVM__ -D__NVCOMPILER_LLVM__ -D__extension__= -D_REENTRANT --preinclude _cplus_preinclude.h --preinclude_macros _cplus_macros.h --gnu_version=120300 -D__pgnu_vsn=120300 --no_fixed_bp --dependencies_target_to_stdout CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o --dependencies_to_file CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d -q -o /tmp/nvc++AEicozUJL2Z8.il /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: []
+        ignore line: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/bin/tools/cpp2 /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -opt 1 -x 119 0xa10000 -x 122 0x40 -x 123 0x1000 -x 127 4 -x 127 17 -x 19 0x400000 -x 28 0x40000 -x 120 0x10000000 -x 70 0x8000 -x 122 1 -x 125 0x20000 -quad -x 59 4 -tp haswell -x 120 0x1000 -astype 0 -x 121 1 -fn /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -il /tmp/nvc++AEicozUJL2Z8.il -x 117 0x200 -x 123 0x80000000 -x 123 4 -x 2 0x400 -x 209 0x10 -x 119 0x20 -def __pgnu_vsn=120300 -x 70 0x40000000 -x 183 4 -x 121 0x800 -x 6 0x20000 -x 249 160 -x 120 0x200000 -x 70 0x40000000 -x 8 0x40000000 -x 164 0x800000 -x 71 0x2000 -x 71 0x4000 -x 34 0x40000000 -x 120 0x1000000 -x 73 0x04 -x 68 0x1 -x 39 4 -x 56 0x10 -x 26 0x10 -x 26 1 -x 56 0x4000 -x 197 0 -x 175 0 -x 203 0 -x 204 0 -y 163 0xc0000000 -x 189 0x10 -y 189 0x4000000 -x 60 512 -gnuvsn 120300 -x 69 0x200 -x 123 0x400 -cmdline '+nvc++ /tmp/nvc++AEicozUJL2Z8.il -v -MD -MT CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -c -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/hwloc/hwloc201/hwloc/include -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent -I/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/include/openmpi/opal/mca/event/libevent2022/libevent/include -pthread' -asm /tmp/nvc++6EicU6Th-VXa.ll]
+        ignore line: [NVC++/x86-64 Linux 23.11-0: compilation successful]
+        ignore line: []
+        ignore line: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/share/llvm/bin/llc /tmp/nvc++6EicU6Th-VXa.ll -march=x86-64 -mcpu=native -mattr=+mmx -mattr=+sse -mattr=+sse2 -mattr=+sse3 -mattr=+ssse3 -mattr=+sse4.1 -mattr=+sse4.2 -mattr=+avx -mattr=+avx2 -mattr=+f16c -mattr=+fma -mattr=+xsave -mattr=+xsaveopt -mattr=+xsavec -mattr=+xsaves -mattr=+popcnt -mattr=+sha -mattr=+aes -mattr=+pclmul -mattr=+clflushopt -mattr=+fsgsbase -mattr=+rdrnd -mattr=+bmi -mattr=+bmi2 -mattr=+lzcnt -mattr=+fxsr -mattr=+pku -mattr=+gfni -mattr=+vaes -mattr=+vpclmulqdq -mattr=+movdiri -mattr=+movdir64b -mattr=+adx -mattr=+avxvnni -mattr=+clwb -mattr=+cx16 -mattr=+hreset -mattr=+kl -mattr=+movbe -mattr=+prfchw -mattr=+ptwrite -mattr=+rdpid -mattr=+rdseed -mattr=+sahf -mattr=+serialize -mattr=+shstk -mattr=+waitpkg -mattr=+widekl -O1 -opaque-pointers -non-global-value-max-name-size=4294967295 -x86-cmov-converter=0 -dwarf-directory=false -override-aa-for-tbaa=true --align-all-functions=6 -filetype=obj --frame-pointer=none -o CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [Unlinking /tmp/nvc++AEicozUJL2Z8.il]
+        ignore line: [Unlinking /tmp/nvc++QEic_IH2x3Cr.s]
+        ignore line: [Unlinking /tmp/nvc++6EicU6Th-VXa.ll]
+        ignore line: [Unlinking /tmp/nvc++kEicEqDkt8SK.llvm]
+        ignore line: [Linking CXX executable cmTC_d24b8]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d24b8.dir/link.txt --verbose=1]
+        ignore line: [/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicxx  -v CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d24b8 ]
+        ignore line: [Export NVCOMPILER=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11]
+        ignore line: [Export PGI=/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk]
+        ignore line: []
+        link line: [/usr/bin/ld /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -T /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib/nvhpc.ld -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib -L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -L/usr/lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/ CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib --enable-new-dtags -lmpi -rpath /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib -o cmTC_d24b8 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64 -latomic -lnvhpcatm -lstdc++ -lnvomp -ldl --as-needed -lnvhpcatm -latomic --no-as-needed -lpthread -lnvcpumath -lnsnvc -lnvc -lgcc -lc -lgcc_s -lm /usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o /usr/lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [/usr/lib64/crt1.o] ==> obj [/usr/lib64/crt1.o]
+          arg [/usr/lib64/crti.o] ==> obj [/usr/lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o]
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-T] ==> ignore
+          arg [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib/nvhpc.ld] ==> ignore
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+          arg [-L/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib] ==> dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/]
+          arg [CMakeFiles/cmTC_d24b8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [-lmpi] ==> lib [mpi]
+          arg [-rpath] ==> ignore
+          arg [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d24b8] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64]
+          arg [-latomic] ==> lib [atomic]
+          arg [-lnvhpcatm] ==> lib [nvhpcatm]
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lnvomp] ==> lib [nvomp]
+          arg [-ldl] ==> lib [dl]
+          arg [--as-needed] ==> ignore
+          arg [-lnvhpcatm] ==> lib [nvhpcatm]
+          arg [-latomic] ==> lib [atomic]
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lnvcpumath] ==> lib [nvcpumath]
+          arg [-lnsnvc] ==> lib [nsnvc]
+          arg [-lnvc] ==> lib [nvc]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lm] ==> lib [m]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o]
+          arg [/usr/lib64/crtn.o] ==> obj [/usr/lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtbegin.o] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtbegin.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//crtend.o] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtend.o]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib]
+        collapse library dir [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib] ==> [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0//../../../../lib64] ==> [/usr/lib64]
+        implicit libs: [mpi;atomic;nvhpcatm;stdc++;nvomp;dl;nvhpcatm;atomic;pthread;nvcpumath;nsnvc;nvc;gcc;c;gcc_s;m]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtbegin.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib;/usr/lib64;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "modules/RequiredBLAS.cmake:5 (find_package)"
+      - "external/CMakeLists.txt:13 (include)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g -O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/modules"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_97e59/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_97e59.dir/build.make CMakeFiles/cmTC_97e59.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9”
+        Building C object CMakeFiles/cmTC_97e59.dir/CheckFunctionExists.c.o
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc   -DCHECK_FUNCTION_EXISTS=sgemm_ -MD -MT CMakeFiles/cmTC_97e59.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_97e59.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_97e59.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9/CheckFunctionExists.c
+        Linking C executable cmTC_97e59
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e59.dir/link.txt --verbose=1
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_97e59.dir/CheckFunctionExists.c.o -o cmTC_97e59 
+        /usr/bin/ld: CMakeFiles/cmTC_97e59.dir/CheckFunctionExists.c.o: in function `main':
+        /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9/CheckFunctionExists.c:17:(.text+0x4e): undefined reference to `sgemm_'
+        make[1]: *** [CMakeFiles/cmTC_97e59.dir/build.make:100：cmTC_97e59] 错误 2
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-x9Gfp9”
+        make: *** [Makefile:127：cmTC_97e59/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:470 (find_package)"
+      - "modules/RequiredBLAS.cmake:5 (find_package)"
+      - "external/CMakeLists.txt:13 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-49sMcj"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-49sMcj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g -O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-49sMcj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4a24/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d4a24.dir/build.make CMakeFiles/cmTC_d4a24.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-49sMcj”
+        Building C object CMakeFiles/cmTC_d4a24.dir/src.c.o
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_d4a24.dir/src.c.o -MF CMakeFiles/cmTC_d4a24.dir/src.c.o.d -o CMakeFiles/cmTC_d4a24.dir/src.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-49sMcj/src.c
+        Linking C executable cmTC_d4a24
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a24.dir/link.txt --verbose=1
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc CMakeFiles/cmTC_d4a24.dir/src.c.o -o cmTC_d4a24 
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-49sMcj”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:753 (check_blas_libraries)"
+      - "modules/RequiredBLAS.cmake:5 (find_package)"
+      - "external/CMakeLists.txt:13 (include)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-muYLsA"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-muYLsA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g -O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/modules"
+    buildResult:
+      variable: "BLAS_openblas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-muYLsA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5300b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5300b.dir/build.make CMakeFiles/cmTC_5300b.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-muYLsA”
+        Building C object CMakeFiles/cmTC_5300b.dir/CheckFunctionExists.c.o
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc   -DCHECK_FUNCTION_EXISTS=sgemm_ -MD -MT CMakeFiles/cmTC_5300b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_5300b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_5300b.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-muYLsA/CheckFunctionExists.c
+        Linking C executable cmTC_5300b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5300b.dir/link.txt --verbose=1
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_5300b.dir/CheckFunctionExists.c.o -o cmTC_5300b  /usr/lib/libopenblas.so 
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-muYLsA”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:397 (check_lapack_libraries)"
+      - "modules/RequiredLAPACK.cmake:5 (find_package)"
+      - "external/CMakeLists.txt:14 (include)"
+    checks:
+      - "Looking for cheev_"
+    directories:
+      source: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-j8jJTW"
+      binary: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-j8jJTW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g -O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/modules"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-j8jJTW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36cef/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_36cef.dir/build.make CMakeFiles/cmTC_36cef.dir/build
+        make[1]: 进入目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-j8jJTW”
+        Building C object CMakeFiles/cmTC_36cef.dir/CheckFunctionExists.c.o
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc   -DCHECK_FUNCTION_EXISTS=cheev_ -MD -MT CMakeFiles/cmTC_36cef.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_36cef.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_36cef.dir/CheckFunctionExists.c.o -c /home/gh0s7/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-j8jJTW/CheckFunctionExists.c
+        Linking C executable cmTC_36cef
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36cef.dir/link.txt --verbose=1
+        /opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_36cef.dir/CheckFunctionExists.c.o -o cmTC_36cef  /usr/lib/libopenblas.so -lm -ldl 
+        make[1]: 离开目录“/run/media/gh0s7/Data/project/OpenCAEPoro_ASC2024/OpenCAEPoro/build/CMakeFiles/CMakeScratch/TryCompile-j8jJTW”
+        
+      exitCode: 0
+...

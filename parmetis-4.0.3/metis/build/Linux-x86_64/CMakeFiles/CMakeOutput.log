@@ -1,0 +1,426 @@
+The system is: Linux - 3.10.0-1160.90.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Intel, found in "/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /public4/soft/gcc/9.1.0/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec658150742/fast"
+gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec658150742.dir/build.make CMakeFiles/cmTryCompileExec658150742.dir/build
+gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec658150742.dir/testCCompiler.c.o
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc    -o CMakeFiles/cmTryCompileExec658150742.dir/testCCompiler.c.o   -c /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec658150742
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec658150742.dir/link.txt --verbose=1
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc       CMakeFiles/cmTryCompileExec658150742.dir/testCCompiler.c.o  -o cmTryCompileExec658150742 -rdynamic 
+gmake[2]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2214474930/fast"
+gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2214474930.dir/build.make CMakeFiles/cmTryCompileExec2214474930.dir/build
+gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc    -o CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2214474930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2214474930.dir/link.txt --verbose=1
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc     -v CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2214474930 -rdynamic  
+mpiicc for the Intel(R) MPI Library 2021.5 for Linux*
+Copyright Intel Corporation.
+icc version 2021.5.0 (gcc version 9.1.0 compatibility)
+/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.5.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=910 "-mGLOB_options_string=-I/public4/soft/oneAPI/2022.1/mpi/2021.5.0/include -v -o cmTryCompileExec2214474930 -rdynamic -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -Xlinker -rpath -Xlinker /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -lmpifort -lmpi -ldl -lrt -lpthread" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icc3nUi0Yas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc0526855368MPJZ4Q -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisOl1X4i -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscriptfxmD28 "-mIPOPT_cmdline_link="/lib/../lib64/crt1.o" "/lib/../lib64/crti.o" "/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib" "-o" "cmTryCompileExec2214474930" "-L/opt/slurm/slurm/lib" "-L/opt/slurm/slurm/lib" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib" "-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu" "-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64" "-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8" "-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib" "-L/public4/soft/oneAPI/2022.1/ipp/latest/lib" "-L/opt/slurm/slurm/lib" "-L/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/" "-L/opt/slurm/slurm/lib/../lib64" "-L/opt/slurm/slurm/lib/../lib64/" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/opt/slurm/slurm/lib64" "-L/opt/slurm/slurm/lib/" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/" "-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/" "-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/" "-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/" "-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/" "-L/public4/soft/oneAPI/2022.1/ipp/latest/lib/" "-L./" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o" "--enable-new-dtags" "-rpath" "/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release" "-rpath" "/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib" "-lmpifort" "-lmpi" "-ldl" "-lrt" "-lpthread" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o" "/lib/../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccminejh.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchLnRZWE -mGLOB_linker_version=2.27 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/tmp/icctempfilessy1Vu -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccminejh.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccalisu4ireX -mIPOPT_generated_tempfiles=/tmp/iccelisxmD3bN -mIPOPT_embedded_object_base_name=/tmp/icceobjOGxG9C -mIPOPT_cmdline_link_new_name=/tmp/iccllisOI0j7s
+ld    /lib/../lib64/crt1.o /lib/../lib64/crti.o /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -o cmTryCompileExec2214474930 -L/opt/slurm/slurm/lib -L/opt/slurm/slurm/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu -L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8 -L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib -L/public4/soft/oneAPI/2022.1/ipp/latest/lib -L/opt/slurm/slurm/lib -L/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/ -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/ -L/opt/slurm/slurm/lib/../lib64 -L/opt/slurm/slurm/lib/../lib64/ -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64 -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/opt/slurm/slurm/lib64 -L/opt/slurm/slurm/lib/ -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/ -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/ -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/ -L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/ -L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/ -L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/ -L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/ -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/ -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/ -L/public4/soft/oneAPI/2022.1/ipp/latest/lib/ -L./ -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o --enable-new-dtags -rpath /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -rpath /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -lmpifort -lmpi -ldl -lrt -lpthread -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o /lib/../lib64/crtn.o
+gmake[2]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2214474930/fast"]
+  ignore line: [gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2214474930.dir/build.make CMakeFiles/cmTryCompileExec2214474930.dir/build]
+  ignore line: [gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc    -o CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2214474930]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2214474930.dir/link.txt --verbose=1]
+  ignore line: [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc     -v CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2214474930 -rdynamic  ]
+  ignore line: [mpiicc for the Intel(R) MPI Library 2021.5 for Linux*]
+  ignore line: [Copyright Intel Corporation.]
+  ignore line: [icc version 2021.5.0 (gcc version 9.1.0 compatibility)]
+  ignore line: [/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.5.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=910 "-mGLOB_options_string=-I/public4/soft/oneAPI/2022.1/mpi/2021.5.0/include -v -o cmTryCompileExec2214474930 -rdynamic -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -Xlinker --enable-new-dtags -Xlinker -rpath -Xlinker /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -Xlinker -rpath -Xlinker /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -lmpifort -lmpi -ldl -lrt -lpthread" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/tmp/icc3nUi0Yas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc0526855368MPJZ4Q -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/tmp/iccslisOl1X4i -mIPOPT_mo_global_data -mIPOPT_link_script_file=/tmp/iccscriptfxmD28 "-mIPOPT_cmdline_link="/lib/../lib64/crt1.o" "/lib/../lib64/crti.o" "/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o" "-export-dynamic" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib" "-o" "cmTryCompileExec2214474930" "-L/opt/slurm/slurm/lib" "-L/opt/slurm/slurm/lib" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib" "-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu" "-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64" "-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8" "-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib" "-L/public4/soft/oneAPI/2022.1/ipp/latest/lib" "-L/opt/slurm/slurm/lib" "-L/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/" "-L/opt/slurm/slurm/lib/../lib64" "-L/opt/slurm/slurm/lib/../lib64/" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/opt/slurm/slurm/lib64" "-L/opt/slurm/slurm/lib/" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/" "-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/" "-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/" "-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/" "-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/" "-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/" "-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/" "-L/public4/soft/oneAPI/2022.1/ipp/latest/lib/" "-L./" "-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o" "--enable-new-dtags" "-rpath" "/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release" "-rpath" "/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib" "-lmpifort" "-lmpi" "-ldl" "-lrt" "-lpthread" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o" "/lib/../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/tmp/ipo_iccminejh.o -mIPOPT_whole_archive_fixup_file_name=/tmp/iccwarchLnRZWE -mGLOB_linker_version=2.27 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/tmp/icctempfilessy1Vu -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/tmp/ipo_iccminejh.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/tmp/iccalisu4ireX -mIPOPT_generated_tempfiles=/tmp/iccelisxmD3bN -mIPOPT_embedded_object_base_name=/tmp/icceobjOGxG9C -mIPOPT_cmdline_link_new_name=/tmp/iccllisOI0j7s]
+  link line: [ld    /lib/../lib64/crt1.o /lib/../lib64/crti.o /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o -export-dynamic --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -o cmTryCompileExec2214474930 -L/opt/slurm/slurm/lib -L/opt/slurm/slurm/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu -L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8 -L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib -L/public4/soft/oneAPI/2022.1/ipp/latest/lib -L/opt/slurm/slurm/lib -L/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/ -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/ -L/opt/slurm/slurm/lib/../lib64 -L/opt/slurm/slurm/lib/../lib64/ -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64 -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/opt/slurm/slurm/lib64 -L/opt/slurm/slurm/lib/ -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/ -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/ -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/ -L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/ -L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/ -L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/ -L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/ -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/ -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/ -L/public4/soft/oneAPI/2022.1/ipp/latest/lib/ -L./ -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o --enable-new-dtags -rpath /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -rpath /public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -lmpifort -lmpi -ldl -lrt -lpthread -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2214474930] ==> ignore
+    arg [-L/opt/slurm/slurm/lib] ==> dir [/opt/slurm/slurm/lib]
+    arg [-L/opt/slurm/slurm/lib] ==> dir [/opt/slurm/slurm/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu] ==> dir [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu]
+    arg [-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64] ==> dir [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64]
+    arg [-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8] ==> dir [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8]
+    arg [-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64] ==> dir [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64] ==> dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib] ==> dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/ipp/latest/lib] ==> dir [/public4/soft/oneAPI/2022.1/ipp/latest/lib]
+    arg [-L/opt/slurm/slurm/lib] ==> dir [/opt/slurm/slurm/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> dir [/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin]
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/]
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/]
+    arg [-L/opt/slurm/slurm/lib/../lib64] ==> dir [/opt/slurm/slurm/lib/../lib64]
+    arg [-L/opt/slurm/slurm/lib/../lib64/] ==> dir [/opt/slurm/slurm/lib/../lib64/]
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64]
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/opt/slurm/slurm/lib64] ==> dir [/opt/slurm/slurm/lib64]
+    arg [-L/opt/slurm/slurm/lib/] ==> dir [/opt/slurm/slurm/lib/]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/]
+    arg [-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/] ==> dir [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/]
+    arg [-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/] ==> dir [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/]
+    arg [-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/] ==> dir [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/]
+    arg [-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/] ==> dir [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/] ==> dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/] ==> dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/]
+    arg [-L/public4/soft/oneAPI/2022.1/ipp/latest/lib/] ==> dir [/public4/soft/oneAPI/2022.1/ipp/latest/lib/]
+    arg [-L./] ==> ignore
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec2214474930.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> ignore
+    arg [-lmpifort] ==> lib [mpifort]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-ldl] ==> lib [dl]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+  collapse library dir [/opt/slurm/slurm/lib] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/opt/slurm/slurm/lib] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu] ==> [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu]
+  collapse library dir [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64] ==> [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8] ==> [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64] ==> [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64] ==> [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib] ==> [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/ipp/latest/lib] ==> [/public4/soft/oneAPI/2022.1/ipp/latest/lib]
+  collapse library dir [/opt/slurm/slurm/lib] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> [/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/] ==> [/public4/soft/gcc/9.1.0/lib/gcc/x86_64-pc-linux-gnu/9.1.0]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/] ==> [/public4/soft/gcc/9.1.0/lib/gcc]
+  collapse library dir [/opt/slurm/slurm/lib/../lib64] ==> [/opt/slurm/slurm/lib64]
+  collapse library dir [/opt/slurm/slurm/lib/../lib64/] ==> [/opt/slurm/slurm/lib64]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64] ==> [/public4/soft/gcc/9.1.0/lib64]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/] ==> [/public4/soft/gcc/9.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/opt/slurm/slurm/lib64] ==> [/opt/slurm/slurm/lib64]
+  collapse library dir [/opt/slurm/slurm/lib/] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/] ==> [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu]
+  collapse library dir [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/] ==> [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/] ==> [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/] ==> [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/] ==> [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/] ==> [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/ipp/latest/lib/] ==> [/public4/soft/oneAPI/2022.1/ipp/latest/lib]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../] ==> [/public4/soft/gcc/9.1.0/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [mpifort;mpi;dl;rt;pthread;imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;irc;svml;c;irc_s;dl;c]
+  implicit dirs: [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release;/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib;/opt/slurm/slurm/lib;/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib;/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu;/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64;/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8;/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64;/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64;/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib;/public4/soft/oneAPI/2022.1/ipp/latest/lib;/public4/soft/oneAPI/2022.1/compiler/2022.0.0/linux/compiler/lib/intel64_lin;/public4/soft/gcc/9.1.0/lib/gcc/x86_64-pc-linux-gnu/9.1.0;/public4/soft/gcc/9.1.0/lib/gcc;/opt/slurm/slurm/lib64;/public4/soft/gcc/9.1.0/lib64;/lib64;/usr/lib64;/public4/soft/gcc/9.1.0/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1396956711/fast"
+gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1396956711.dir/build.make CMakeFiles/cmTryCompileExec1396956711.dir/build
+gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1396956711.dir/testCXXCompiler.cxx.o
+/public4/soft/gcc/9.1.0/bin/c++     -o CMakeFiles/cmTryCompileExec1396956711.dir/testCXXCompiler.cxx.o -c /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1396956711
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1396956711.dir/link.txt --verbose=1
+/public4/soft/gcc/9.1.0/bin/c++        CMakeFiles/cmTryCompileExec1396956711.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1396956711 -rdynamic 
+gmake[2]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2443127805/fast"
+gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2443127805.dir/build.make CMakeFiles/cmTryCompileExec2443127805.dir/build
+gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o
+/public4/soft/gcc/9.1.0/bin/c++     -o CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2443127805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2443127805.dir/link.txt --verbose=1
+/public4/soft/gcc/9.1.0/bin/c++      -v CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2443127805 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/public4/soft/gcc/9.1.0/bin/c++
+COLLECT_LTO_WRAPPER=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/public1/soft/gcc/9.1.0 --enable-languages=c,c++,fortran --disable-multilib
+Thread model: posix
+gcc version 9.1.0 (GCC) 
+COMPILER_PATH=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/:/public4/soft/gcc/9.1.0/bin/../libexec/gcc/
+LIBRARY_PATH=/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/public4/soft/gcc/9.1.0/bin/../lib/gcc/:/opt/slurm/slurm/lib/../lib64/:/opt/slurm/slurm/lib/../lib64/:/opt/slurm/slurm/lib/../lib64/:/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/slurm/slurm/lib/:/opt/slurm/slurm/lib/:/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/:/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/:/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/:/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/:/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/:/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/:/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/:/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/:/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/:/public4/soft/oneAPI/2022.1/ipp/latest/lib/:/opt/slurm/slurm/lib/:./:/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2443127805' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/collect2 -plugin /public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/liblto_plugin.so -plugin-opt=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3pkIt8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2443127805 /lib/../lib64/crt1.o /lib/../lib64/crti.o /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0 -L/public4/soft/gcc/9.1.0/bin/../lib/gcc -L/opt/slurm/slurm/lib/../lib64 -L/opt/slurm/slurm/lib/../lib64 -L/opt/slurm/slurm/lib/../lib64 -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/slurm/slurm/lib -L/opt/slurm/slurm/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu -L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8 -L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib -L/public4/soft/oneAPI/2022.1/ipp/latest/lib -L/opt/slurm/slurm/lib -L. -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../.. CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2443127805' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[2]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2443127805/fast"]
+  ignore line: [gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2443127805.dir/build.make CMakeFiles/cmTryCompileExec2443127805.dir/build]
+  ignore line: [gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/public4/soft/gcc/9.1.0/bin/c++     -o CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2443127805]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2443127805.dir/link.txt --verbose=1]
+  ignore line: [/public4/soft/gcc/9.1.0/bin/c++      -v CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2443127805 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/public4/soft/gcc/9.1.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/public1/soft/gcc/9.1.0 --enable-languages=c,c++,fortran --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.1.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/:/public4/soft/gcc/9.1.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/:/public4/soft/gcc/9.1.0/bin/../lib/gcc/:/opt/slurm/slurm/lib/../lib64/:/opt/slurm/slurm/lib/../lib64/:/opt/slurm/slurm/lib/../lib64/:/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/slurm/slurm/lib/:/opt/slurm/slurm/lib/:/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib/:/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release/:/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/:/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu/:/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64/:/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8/:/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64/:/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64/:/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib/:/public4/soft/oneAPI/2022.1/ipp/latest/lib/:/opt/slurm/slurm/lib/:./:/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2443127805' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/collect2 -plugin /public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/liblto_plugin.so -plugin-opt=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3pkIt8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2443127805 /lib/../lib64/crt1.o /lib/../lib64/crti.o /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0 -L/public4/soft/gcc/9.1.0/bin/../lib/gcc -L/opt/slurm/slurm/lib/../lib64 -L/opt/slurm/slurm/lib/../lib64 -L/opt/slurm/slurm/lib/../lib64 -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/slurm/slurm/lib -L/opt/slurm/slurm/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release -L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib -L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu -L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8 -L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64 -L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib -L/public4/soft/oneAPI/2022.1/ipp/latest/lib -L/opt/slurm/slurm/lib -L. -L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../.. CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/public4/soft/gcc/9.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3pkIt8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2443127805] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtbegin.o] ==> ignore
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0]
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc]
+    arg [-L/opt/slurm/slurm/lib/../lib64] ==> dir [/opt/slurm/slurm/lib/../lib64]
+    arg [-L/opt/slurm/slurm/lib/../lib64] ==> dir [/opt/slurm/slurm/lib/../lib64]
+    arg [-L/opt/slurm/slurm/lib/../lib64] ==> dir [/opt/slurm/slurm/lib/../lib64]
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/slurm/slurm/lib] ==> dir [/opt/slurm/slurm/lib]
+    arg [-L/opt/slurm/slurm/lib] ==> dir [/opt/slurm/slurm/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+    arg [-L/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu] ==> dir [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu]
+    arg [-L/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64] ==> dir [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64]
+    arg [-L/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8] ==> dir [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8]
+    arg [-L/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64] ==> dir [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64] ==> dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64]
+    arg [-L/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib] ==> dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib]
+    arg [-L/public4/soft/oneAPI/2022.1/ipp/latest/lib] ==> dir [/public4/soft/oneAPI/2022.1/ipp/latest/lib]
+    arg [-L/opt/slurm/slurm/lib] ==> dir [/opt/slurm/slurm/lib]
+    arg [-L.] ==> ignore
+    arg [-L/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../..] ==> dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../..]
+    arg [CMakeFiles/cmTryCompileExec2443127805.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0] ==> [/public4/soft/gcc/9.1.0/lib/gcc/x86_64-pc-linux-gnu/9.1.0]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc] ==> [/public4/soft/gcc/9.1.0/lib/gcc]
+  collapse library dir [/opt/slurm/slurm/lib/../lib64] ==> [/opt/slurm/slurm/lib64]
+  collapse library dir [/opt/slurm/slurm/lib/../lib64] ==> [/opt/slurm/slurm/lib64]
+  collapse library dir [/opt/slurm/slurm/lib/../lib64] ==> [/opt/slurm/slurm/lib64]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../lib64] ==> [/public4/soft/gcc/9.1.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/slurm/slurm/lib] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/opt/slurm/slurm/lib] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib] ==> [/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu] ==> [/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu]
+  collapse library dir [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64] ==> [/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8] ==> [/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8]
+  collapse library dir [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64] ==> [/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64] ==> [/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64]
+  collapse library dir [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib] ==> [/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib]
+  collapse library dir [/public4/soft/oneAPI/2022.1/ipp/latest/lib] ==> [/public4/soft/oneAPI/2022.1/ipp/latest/lib]
+  collapse library dir [/opt/slurm/slurm/lib] ==> [/opt/slurm/slurm/lib]
+  collapse library dir [/public4/soft/gcc/9.1.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../..] ==> [/public4/soft/gcc/9.1.0/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/public4/soft/gcc/9.1.0/lib/gcc/x86_64-pc-linux-gnu/9.1.0;/public4/soft/gcc/9.1.0/lib/gcc;/opt/slurm/slurm/lib64;/public4/soft/gcc/9.1.0/lib64;/lib64;/usr/lib64;/opt/slurm/slurm/lib;/public4/soft/oneAPI/2022.1/mpi/2021.5.0/libfabric/lib;/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib/release;/public4/soft/oneAPI/2022.1/mpi/2021.5.0/lib;/public4/soft/oneAPI/2022.1/ccl/latest/lib/cpu;/public4/soft/oneAPI/2022.1/dal/latest/lib/intel64;/public4/soft/oneAPI/2022.1/tbb/latest/lib/intel64/gcc4.8;/public4/soft/oneAPI/2022.1/mkl/latest/lib/intel64;/public4/soft/oneAPI/2022.1/compiler/latest/linux/compiler/lib/intel64;/public4/soft/oneAPI/2022.1/compiler/latest/linux/lib;/public4/soft/oneAPI/2022.1/ipp/latest/lib;/public4/soft/gcc/9.1.0/lib]
+  implicit fwks: []
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1416280999/fast"
+gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1416280999.dir/build.make CMakeFiles/cmTryCompileExec1416280999.dir/build
+gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1416280999.dir/CheckIncludeFile.c.o
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc    -o CMakeFiles/cmTryCompileExec1416280999.dir/CheckIncludeFile.c.o   -c /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1416280999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1416280999.dir/link.txt --verbose=1
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc       CMakeFiles/cmTryCompileExec1416280999.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1416280999 -rdynamic 
+gmake[2]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getline exists passed with the following output:
+Change Dir: /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3024165884/fast"
+gmake[1]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3024165884.dir/build.make CMakeFiles/cmTryCompileExec3024165884.dir/build
+gmake[2]: Entering directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3024165884.dir/CheckFunctionExists.c.o
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTryCompileExec3024165884.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3024165884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3024165884.dir/link.txt --verbose=1
+/public4/soft/oneAPI/2022.1/mpi/2021.5.0/bin/mpiicc   -DCHECK_FUNCTION_EXISTS=getline    CMakeFiles/cmTryCompileExec3024165884.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3024165884 -rdynamic 
+gmake[2]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/public4/home/sc56808/zlj/parmetis-4.0.3/metis/build/Linux-x86_64/CMakeFiles/CMakeTmp'
+
+

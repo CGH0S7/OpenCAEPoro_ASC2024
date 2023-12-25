@@ -1,0 +1,37 @@
+  Rank     Grid Num     Updating Properties(s)     Assembling(s)     Communication(collect)(s)     Communication(P2P)(s)     1AllReduce(OCPCheck)(s)     Newton Step(s)     Newton Step(c)(s)
+     0           75                      0.047             0.168                         0.042                     0.009                       0.005              0.014                 0.007
+     1           75                      0.047             0.178                         0.036                     0.009                       0.006              0.014                 0.007
+     2           75                      0.045             0.186                         0.032                     0.010                       0.006              0.014                 0.006
+     3           75                      0.047             0.164                         0.051                     0.009                       0.007              0.014                 0.007
+
+==================================================
+Item                          Average     Varance         Max         Min
+Grid Num                           75           0          75          75
+Updating Properties(s)          0.047       0.001       0.047       0.045
+Assembling(s)                   0.174       0.008       0.186       0.164
+Communication(collect)(s)       0.040       0.007       0.051       0.032
+Communication(P2P)(s)           0.009       0.000       0.010       0.009
+1AllReduce(OCPCheck)(s)         0.006       0.001       0.007       0.005
+Newton Step(s)                  0.014       0.000       0.014       0.014
+Newton Step(c)(s)               0.007       0.000       0.007       0.006
+==================================================
+Final time:                   3655.500( Day )
+ - Avg time step size .......    9.349 (391 steps)
+ - Avg Newton steps .........    1.212 (474 succeeded + 2 wasted)
+ - Avg linear steps .........    3.333 (1580 succeeded + 7 wasted)
+Simulation time:                    3.757 (Seconds)
+ - % Input & Partition .........    0.276 (0.010s)
+ - % Partition - ParMetis ......    0.079 (0.003s)
+ - % Input Reservoir ...........    0.051 (0.002s)
+ - % Setup Simulator ...........    0.007 (0.000s)
+ - % Initialization ............    0.019 (0.001s)
+ - % Assembling ................    4.462 (0.168s)
+ - % Assembling for LS interface    1.023 (0.038s)
+ - % Linear Solver .............   90.485 (3.399s)
+ - % Newton Step ...............    0.382 (0.014s)
+ - % Updating Properties .......    1.255 (0.047s)
+ - % Output ....................    1.147 (0.043s)
+==================================================
+
+OBJECT TIME:     0.693 s 
+

@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: petsc
+Version: 3.19.3
+Summary: PETSc: Portable, Extensible Toolkit for Scientific Computation
+Home-page: https://petsc.org/
+Download-URL: https://ftp.mcs.anl.gov/pub/petsc/release-snapshots//petsc-3.19.3.tar.gz#egg=petsc-3.19.3
+Author: PETSc Team
+Author-email: petsc-maint@mcs.anl.gov
+Maintainer: Lisandro Dalcin
+Maintainer-email: dalcinl@gmail.com
+License: BSD
+Keywords: PETSc,MPI
+Platform: POSIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Provides: petsc
+License-File: LICENSE
+
+The Portable, Extensible Toolkit for Scientific Computation (PETSc),
+is a suite of data structures and routines for the scalable (parallel)
+solution of scientific applications modeled by partial differential
+equations. It employs the Message Passing Interface (MPI) standard for
+all message-passing communication.
+
+.. note::
+
+   To install ``PETSc`` and ``petsc4py`` (``mpi4py`` is optional
+   but highly recommended) use::
+
+     $ python -m pip install numpy mpi4py  (or pip install numpy mpi4py)
+     $ python -m pip install petsc petsc4py (or pip install petsc petsc4py)
+
+.. tip::
+
+  You can also install the in-development versions with::
+
+    $ python -m pip install Cython numpy mpi4py
+    $ python -m pip install --no-deps https://gitlab.com/petsc/petsc/-/archive/main/petsc-main.tar.gz
+
+  To set the MPI compilers use the environmental variables ``MPICC``, ``MPICXX``, ``MPIF90``.
+
+  Provide any ``PETSc`` ./configure options using the environmental variable ``PETSC_CONFIGURE_OPTIONS``.
+
+  Do not use the ``PETSc`` ``./configure`` options ``--with-cc``, ``--with-cxx``, ``--with-fc``, or ``--with-mpi-dir``.
+
+  If ``mpi4py`` is installed the compilers will obtained from that installation and ``MPICC``, ``MPICXX``, ``MPIF90`` will be ignored.
