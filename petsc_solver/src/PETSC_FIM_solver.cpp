@@ -1,4 +1,3 @@
-#include <openacc.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -149,18 +148,17 @@ int FIM_solver_p_cpr(int is_thermal, int myid, int num_procs, int nb,
   PetscInt Ii, iters;
   PetscErrorCode ierr;
 
+#pragma acc parallel loop gang vector collapse(2)
   for (int i = 0; i < nBlockRows; i++) {
     nDCount[i] = 0;
-#pragma acc loop vector seq
     for (int j = rpt[i]; j < rpt[i + 1]; j++) {
       if (cpt[j] >= Istart && cpt[j] <= Iend) {
-#pragma acc atomic
         nDCount[i]++;
       }
     }
   }
 
-#pragma acc parallel loop vector gang
+#pragma acc parallel loop
   for (int i = 0; i < nBlockRows; i++) {
     nNDCount[i] = rpt[i + 1] - rpt[i] - nDCount[i];
   }
@@ -177,21 +175,27 @@ int FIM_solver_p_cpr(int is_thermal, int myid, int num_procs, int nb,
   int *globalx = (int *)malloc(blockSize * sizeof(int));
   int *globaly = (int *)malloc(blockSize * sizeof(int));
 
-  for (Ii = 0; Ii < nBlockRows; Ii++) {
-#pragma acc parallel loop vector gang
-    for (i = 0; i < blockSize; i++) {
-      globalx[i] = (Ii + Istart) * blockSize + i;
-    }
-    for (int i = rpt[Ii]; i < rpt[Ii + 1]; i++) {
-
-#pragma acc parallel loop vector gang
-      for (int j = 0; j < blockSize; j++) {
-        globaly[j] = cpt[i] * blockSize + j;
+#pragma acc parallel num_gangs(nBlockRows)                                     \
+    copyin(rpt[0 : nBlockRows + 1], cpt[0 : rpt[nBlockRows]],                  \
+               valpt[0 : blockSize * blockSize * rpt[nBlockRows]])
+  {
+#pragma acc loop gang vector
+    for (Ii = 0; Ii < nBlockRows; Ii++) {
+#pragma acc loop gang vector
+      for (i = 0; i < blockSize; i++) {
+        globalx[i] = (Ii + Istart) * blockSize + i;
       }
-      ierr = MatSetValues(A, blockSize, globalx, blockSize, globaly, valpt,
-                          INSERT_VALUES);
-      CHKERRQ(ierr);
-      valpt += blockSize * blockSize;
+#pragma acc loop gang vector
+      for (int i = rpt[Ii]; i < rpt[Ii + 1]; i++) {
+
+        for (int j = 0; j < blockSize; j++) {
+          globaly[j] = cpt[i] * blockSize + j;
+        }
+        ierr = MatSetValues(A, blockSize, globalx, blockSize, globaly, valpt,
+                            INSERT_VALUES);
+        CHKERRQ(ierr);
+        valpt += blockSize * blockSize;
+      }
     }
   }
 

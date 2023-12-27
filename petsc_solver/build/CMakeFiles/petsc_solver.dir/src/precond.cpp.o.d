@@ -2,7 +2,6 @@ CMakeFiles/petsc_solver.dir/src/precond.cpp.o : \
   /home/gh0s7/project/OpenCAEPoro_ASC2024/petsc_solver/src/precond.cpp \
   /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include/_cplus_macros.h \
   /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include/_cplus_preinclude.h \
-  /run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/include/openacc_predef.h \
   /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \

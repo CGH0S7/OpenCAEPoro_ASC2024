@@ -69,6 +69,6 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mpi;nvomp;dl;nvhpcatm;atomic;pthread;nvcpumath;nsnvc;nvc;gcc;c;gcc_s;m")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ompi/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/nccl_rdma_sharp_plugin/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/sharp/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucc/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/ucx/mt/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/12.3/hpcx/hpcx-2.16/hcoll/lib;/run/media/gh0s7/Data/Programs/nvidia/hpc_sdk/Linux_x86_64/23.11/compilers/lib;/usr/lib64;/usr/lib/gcc/x86_64-pc-linux-gnu/12.3.0")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

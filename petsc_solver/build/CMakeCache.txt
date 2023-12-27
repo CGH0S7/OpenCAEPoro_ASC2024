@@ -33,7 +33,7 @@ CMAKE_CONFIGURATION_TYPES:STRING=Release;Debug
 CMAKE_CXX_COMPILER:FILEPATH=/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicxx
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-O3 -acc
+CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g -O0
@@ -51,7 +51,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -gopt
 CMAKE_C_COMPILER:FILEPATH=/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/comm_libs/mpi/bin/mpicc
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=-O3 -acc
+CMAKE_C_FLAGS:STRING=
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g -O0
