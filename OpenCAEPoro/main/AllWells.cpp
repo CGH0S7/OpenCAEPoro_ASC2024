@@ -291,6 +291,7 @@ USI AllWells::GetMaxWellPerNum() const
 USI AllWells::GetNumOpenWell() const
 {
     USI nw = 0;
+    #pragma acc parallel loop
     for (const auto& w : wells) {
         if (w->IsOpen()) {
             nw++;

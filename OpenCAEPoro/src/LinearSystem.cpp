@@ -48,6 +48,7 @@ void LinearSystem::AllocateColMem()
 
 void LinearSystem::ClearData()
 {
+    #pragma acc parallel loop
     for (OCP_USI i = 0; i < maxDim; i++) {
         colId[i].clear(); // actually, only parts of bulks needs to be clear
         val[i].clear();
@@ -143,7 +144,9 @@ void LinearSystem::OutputSolution(const string& fileU) const
 void LinearSystem::CheckEquation() const
 {
     // check A
+    #pragma acc parallel loop
     for (OCP_USI n = 0; n < dim; n++) {
+        #pragma acc parallel loop
         for (auto v : val[n]) {
             if (!isfinite(v)) {
                 OCP_ABORT("NAN or INF in MAT");
@@ -152,6 +155,7 @@ void LinearSystem::CheckEquation() const
     }
     // check b
     OCP_USI len = dim * blockDim;
+    #pragma acc parallel loop
     for (OCP_USI n = 0; n < len; n++) {
         if (!isfinite(b[n])) {
             OCP_ABORT("NAN or INF in rhs");

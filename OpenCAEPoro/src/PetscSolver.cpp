@@ -59,6 +59,7 @@ void PetscSolver::AssembleMat(const vector<vector<USI>> &colId,
     const USI nnzR = colId[i - 1].size();
 
     tmpJ.resize(nnzR);
+    #pragma acc parallel loop
     for (USI j = 0; j < nnzR; j++) {
       tmpJ[j] = global_index->at(colId[i - 1][j]);
     }
