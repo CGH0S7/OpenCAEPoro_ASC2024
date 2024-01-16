@@ -83,7 +83,10 @@ protected:
 	/// Calculate pressure difference between well and perforations for Production.
 	void CalProddG02(const Bulk& bk);
 	/// Calculate pressure of perforations
-	void CalPerfP() { for (USI p = 0; p < numPerf; p++) perf[p].P = bhp + dG[p]; }
+	void CalPerfP() { 
+		#pragma acc parallel loop
+		for (USI p = 0; p < numPerf; p++) perf[p].P = bhp + dG[p]; 
+		}
 
 protected:
 	/// difference of pressure between well and perforation: numPerf.

@@ -272,23 +272,27 @@ const vector<OCP_ULL>* Domain::CalGlobalIndex(const USI& nw) const
 	global_end   = global_end - 1;
 
 	// Get Interior grid's global index
+	#pragma acc parallel loop
 	for (OCP_USI n = 0; n < numElementLoc; n++)
 		global_index[n] = n + global_begin;
 
 	timer.Start();
 
 	// Get Ghost grid's global index by communication	
+	#pragma acc parallel loop
 	for (USI i = 0; i < numRecvProc; i++) {
 		const auto& rel = recv_element_loc[i];
 		const auto  bId = rel[1] + nw;
 		MPI_Irecv(&global_index[bId], rel[2] - rel[1], OCPMPI_ULL, rel[0], 0, myComm, &recv_request[i]);
 	}
 	vector<vector<OCP_ULL>> send_buffer(numSendProc);
+	#pragma acc parallel loop
 	for (USI i = 0; i < numSendProc; i++) {
 		const auto& sel = send_element_loc[i];
 		auto&       s   = send_buffer[i];
 		s.resize(sel.size());
 		s[0] = sel[0];
+		#pragma acc parallel loop
 		for (USI j = 1; j < sel.size(); j++) {
 			s[j] = global_index[sel[j]];
 		}
